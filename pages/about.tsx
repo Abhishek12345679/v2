@@ -1,14 +1,9 @@
-import Link from "next/link"
+import Navbar from "../components/Navbar"
 
 const about = () => {
     return (
         <div>
-            <h1>About Me</h1>
-            <Link
-                href="/"
-            >
-                <a>go back</a>
-            </Link>
+            <Navbar />
         </div>
     )
 }
