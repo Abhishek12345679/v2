@@ -1,8 +1,9 @@
 import { Temporal } from "@js-temporal/polyfill"
+import { NextPage } from "next"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 
-const Navbar = () => {
+const Navbar: NextPage = () => {
 
     const currentLocation = "Kolkata"
 
@@ -10,7 +11,10 @@ const Navbar = () => {
         const DaysOfTheWeek = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"]
         const currentDay = DaysOfTheWeek[Temporal.Now.plainDateISO().dayOfWeek]
 
-        return `${currentDay} ${Temporal.Now.plainDateTimeISO().hour}:${Temporal.Now.plainDateTimeISO().minute}`
+        const hours = Temporal.Now.plainDateTimeISO().hour < 10 ? "0".concat(Temporal.Now.plainDateTimeISO().hour.toString()) : Temporal.Now.plainDateTimeISO().hour.toString()
+        const minutes = Temporal.Now.plainDateTimeISO().minute < 10 ? "0".concat(Temporal.Now.plainDateTimeISO().minute.toString()) : Temporal.Now.plainDateTimeISO().minute.toString()
+
+        return `${currentDay} ${hours}:${minutes}`
     }
 
     useEffect(() => {
@@ -19,13 +23,11 @@ const Navbar = () => {
 
     return (
         <header>
-            {/* <h3> */}
             <Link href="/">
                 <a>
                     {makeDayTimeString()}, {currentLocation}
                 </a>
             </Link>
-            {/* </h3> */}
             <nav>
                 <div>
                     <ul>

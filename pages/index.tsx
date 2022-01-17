@@ -5,8 +5,15 @@ import styles from '../styles/Home.module.css'
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
+      <head>
+        <title>
+          Abhishek Sah
+        </title>
+      </head>
       <Navbar />
-      Hi
+      <div className="main-container">
+
+      </div>
     </div>
   )
 }
