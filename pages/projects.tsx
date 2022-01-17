@@ -1,12 +1,13 @@
 import Navbar from "../components/Navbar"
 
-const about = () => {
+const projects = () => {
+
     return (
         <div>
             <Navbar />
-            about
+            <h1>Projects</h1>
         </div>
     )
 }
 
-export default about
+export default projects

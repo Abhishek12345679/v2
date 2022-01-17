@@ -6,6 +6,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Navbar />
+      Hi
     </div>
   )
 }

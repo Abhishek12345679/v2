@@ -1,16 +1,22 @@
 html,
 body {
-    background-color: #121212;
+    background-color: #0f0d0c;
     padding: 0;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    color: rgb(230, 228, 228);
-    padding: 0 2rem;
+    color: #e7e5e4;
+    padding: 0.5rem 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav {
-    width: 100%;
-    background-color: coral;
+    width: 40%;
+    /* background-color: coral; */
     justify-content: flex-end;
 }
 
