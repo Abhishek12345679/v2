@@ -4,7 +4,9 @@ const about = () => {
     return (
         <div>
             <Navbar />
-            about
+            <div className="main-container">
+                About
+            </div>
         </div>
     )
 }

@@ -15,7 +15,7 @@ header {
 }
 
 nav {
-    width: 40%;
+    width: 35%;
     /* background-color: coral; */
     justify-content: flex-end;
 }
@@ -42,6 +42,10 @@ a {
 
 .main-container {
     margin: 3rem 10% 0 10%;
-    background-color: red;
+    /* background-color: red; */
     height: 200vh;
+}
+
+.intro {
+    width: 40%;
 }
