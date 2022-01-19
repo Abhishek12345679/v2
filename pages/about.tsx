@@ -6,7 +6,7 @@ const about = () => {
         <div>
             <Navbar currentLocation={currentLocation} dayTimeString={makeDayTimeString()} />
 
-            <div className="main-container">
+            <div>
                 About
             </div>
         </div>
