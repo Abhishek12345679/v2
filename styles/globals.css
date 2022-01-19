@@ -1,10 +1,23 @@
-html,
-body {
-    background-color: #0f0d0c;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+/* css variables */
+
+:root {
+    --primary-color: #0f0d0c;
+}
+
+
+/*  */
+
+* {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    color: #e7e5e4;
+}
+
+html,
+body {
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -12,6 +25,91 @@ a {
     text-decoration: none;
 }
 
-* {
-    box-sizing: border-box;
+ul {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 20px 0;
+}
+
+
+/* add img to Image */
+
+.img {
+    width: 100%;
+}
+
+
+/* top bar */
+
+.topbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 100px;
+    padding: 10px 0;
+}
+
+.topbar .flex {
+    justify-content: space-between;
+}
+
+.topbar ul {
+    display: flex;
+}
+
+.topbar nav a {
+    color: #a2a2a2;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.topbar a:hover {
+    color: #fff;
+}
+
+.introduction {
+    height: 400px;
+    background-color: var(--primary-color);
+    color: #e7e5e4;
+    position: relative;
+}
+
+.intro-text h1 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+
+/* utilities */
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }

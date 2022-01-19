@@ -5,7 +5,6 @@ const about = () => {
     return (
         <div>
             <Navbar currentLocation={currentLocation} dayTimeString={makeDayTimeString()} />
-
             <div>
                 About
             </div>

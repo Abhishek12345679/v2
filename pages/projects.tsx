@@ -6,7 +6,7 @@ const projects = () => {
     return (
         <div>
             <Navbar currentLocation={currentLocation} dayTimeString={makeDayTimeString()} />
-            <div className="main-container">
+            <div>
                 projects
             </div>
         </div>
