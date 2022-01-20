@@ -5,7 +5,8 @@ import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import { currentLocation, makeDayTimeString } from '../helper/helperFunctions'
 
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const Home: NextPage = () => {
   return (
@@ -29,15 +30,51 @@ const Home: NextPage = () => {
               Culpa officiis aliquid accusamus, id repellendus perspiciatis.
               Quo in dolorem sapiente corrupti officiis nam unde quaerat.
             </p>
-            <div className="socials">
-              <ul>
+
+            <section>
+              <ul className="socials-row flex">
                 <li>
-                  <FontAwesomeIcon icon={faGithub} />
+                  <a
+                    target='_blank'
+                    referrerPolicy='origin'
+                    href="https://github.com/Abhishek12345679"
+                  >
+                    <FontAwesomeIcon
+                      className='social-icon'
+                      icon={faGithub} // ?
+                      size="2x"
+                    />
+                  </a>
                 </li>
-                <li></li>
-                <li></li>
+                <li>
+                  <a
+                    target='_blank'
+                    referrerPolicy='origin'
+                    href="https://twitter.com/newbdev6969"
+                  >
+                    <FontAwesomeIcon
+                      className='social-icon'
+                      icon={faTwitter} // ?
+                      size="2x"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    target='_blank'
+                    referrerPolicy='origin'
+                    href="https://instagram.com/alooofries"
+                  >
+                    <FontAwesomeIcon
+                      className='social-icon'
+                      icon={faInstagram} // ?
+                      size="2x"
+                    />
+                  </a>
+                </li>
               </ul>
-            </div>
+            </section>
+
           </div>
           <Image
             className='img'

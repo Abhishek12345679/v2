@@ -88,6 +88,21 @@ p {
     font-size: 35px;
 }
 
+.socials-row {
+    height: 3em;
+    width: 100%;
+    margin: 3em 0;
+    gap: 30px;
+}
+
+section .flex {
+    justify-content: flex-start;
+}
+
+.social-icon :hover {
+    color: teal;
+}
+
 
 /* utilities */
 

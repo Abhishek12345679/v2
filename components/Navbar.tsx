@@ -1,3 +1,4 @@
+import { NextComponentType } from "next"
 import Link from "next/link"
 import { currentLocation } from "../helper/helperFunctions"
 
