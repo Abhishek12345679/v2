@@ -35,6 +35,7 @@ const Home: NextPage = () => {
               <ul className="socials-row flex">
                 <li>
                   <a
+                    title='Follow me on Github!'
                     target='_blank'
                     referrerPolicy='origin'
                     href="https://github.com/Abhishek12345679"
@@ -48,6 +49,7 @@ const Home: NextPage = () => {
                 </li>
                 <li>
                   <a
+                    title='You will be disappointed!'
                     target='_blank'
                     referrerPolicy='origin'
                     href="https://twitter.com/newbdev6969"
@@ -61,6 +63,7 @@ const Home: NextPage = () => {
                 </li>
                 <li>
                   <a
+                    title='Sike No Photos!'
                     target='_blank'
                     referrerPolicy='origin'
                     href="https://instagram.com/alooofries"
@@ -72,6 +75,12 @@ const Home: NextPage = () => {
                     />
                   </a>
                 </li>
+                <a
+                  className='btn-outline'
+                  href='mailto:sah755146@gmail.com'
+                >
+                  Email me
+                </a>
               </ul>
             </section>
 

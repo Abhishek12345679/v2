@@ -13,6 +13,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    background-color: var(--primary-color);
 }
 
 html,
@@ -77,7 +78,8 @@ p {
 }
 
 .introduction {
-    height: 400px;
+    padding: 10em 0;
+    /* height: 400px; */
     background-color: var(--primary-color);
     color: #e7e5e4;
     position: relative;
@@ -99,8 +101,37 @@ section .flex {
     justify-content: flex-start;
 }
 
-.social-icon :hover {
+.socials-row li :hover {
     color: teal;
+    cursor: pointer;
+}
+
+.btn-outline {
+    display: inline-flex;
+    margin-left: 10px;
+    border-radius: 100px;
+    text-align: center;
+    background-color: #353535;
+    border: 1px #363636 solid;
+    color: #fff;
+    padding: 0 24px;
+    min-height: 45px;
+    font-weight: bold;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+
+.btn-outline:hover {
+    background-color: #474747;
+}
+
+svg,
+svg path,
+a {
+    transition: 0.4s;
 }
 
 
