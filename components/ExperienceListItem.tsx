@@ -21,7 +21,8 @@ export const ExperienceListItem = (props: any) => {
                 }
             </ul>
             <div className="flex">
-                Tech stack :
+
+                <p>techstack ://{">"}</p>
                 {
                     props.techstack.map((tech: string) => (
                         <p style={{

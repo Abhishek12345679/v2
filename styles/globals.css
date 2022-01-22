@@ -173,7 +173,8 @@ a {
 .list-item {
     display: flex;
     flex-direction: column;
-    background-color: #1b1b1b;
+    background-color: #191919;
+    border: 1px #242424 solid;
     height: 250px;
     padding: 20px;
     margin: 1em 0;
