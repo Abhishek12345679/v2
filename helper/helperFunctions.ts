@@ -3,8 +3,11 @@ import { Temporal } from "@js-temporal/polyfill";
 export const currentLocation = "Kolkata";
 
 export const makeDayTimeString = () => {
-  const DaysOfTheWeek = ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"];
-  const currentDay = DaysOfTheWeek[Temporal.Now.plainDateISO().dayOfWeek];
+  const DaysOfTheWeek = ["Mon", "Tue", "Wed", "Thurs", "Fri", "Sat", "Sun"];
+  const currentDay =
+    DaysOfTheWeek[Temporal.Now.zonedDateTimeISO("Asia/Kolkata").dayOfWeek - 1];
+
+  console.log(Temporal.Now.zonedDateTimeISO("Asia/Kolkata").dayOfWeek);
 
   const hours =
     Temporal.Now.zonedDateTimeISO("Asia/Kolkata").hour < 10
