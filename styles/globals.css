@@ -30,14 +30,19 @@ ul {
     list-style-type: none;
 }
 
-h1,
+h1 {
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
 h2 {
     /* font-weight: 300; */
     line-height: 1.2;
     margin: 10px 0;
 }
 
-h3 {
+h3,
+h4 {
     font-weight: 300;
     line-height: 1.3;
     margin: 25px 0;
@@ -45,6 +50,10 @@ h3 {
 
 p {
     margin: 20px 0;
+}
+
+.desc {
+    width: 600px;
 }
 
 
@@ -67,8 +76,8 @@ p {
 
 .topbar nav a {
     color: #a2a2a2;
-    margin: 0 5px;
-    padding: 10px;
+    margin: 0 10px;
+    padding: 5px;
 }
 
 .topbar a:hover {
@@ -76,7 +85,7 @@ p {
 }
 
 .introduction {
-    padding: 2em 0;
+    padding: 1em 0;
     /* height: 400px; */
     background-color: var(--primary-color);
     color: #dddcdc;
@@ -102,7 +111,7 @@ section .flex {
 .socials-row li :hover {
     color: teal;
     cursor: pointer;
-    margin-bottom: 7.5px;
+    margin-bottom: 10px;
 }
 
 .btn-outline {
@@ -130,7 +139,7 @@ section .flex {
 svg,
 svg path,
 a {
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 .react-native {
@@ -143,21 +152,25 @@ a {
     margin-bottom: 25px;
 }
 
+.toggle-break {
+    display: none;
+}
+
 
 /* utilities */
 
 .container {
-    max-width: 800px;
+    max-width: 1100px;
     margin: 0 auto;
     /* overflow: auto; */
-    padding: 0 20px;
+    padding: 0 25px;
 }
 
 .container-body {
-    max-width: 800px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: 1em auto;
     /* overflow: auto; */
-    padding: 0 20px;
+    padding: 0 25px;
 }
 
 .flex {
@@ -180,8 +193,24 @@ a {
     font-weight: bold;
 }
 
+.bolder {
+    font-weight: bolder;
+}
+
 .regular {
     font-weight: 500;
+}
+
+.margin-top20 {
+    margin-top: 20px;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+
+.white-font {
+    color: #fff;
 }
 
 
@@ -212,10 +241,13 @@ a {
 
 @media (max-width: 500px) {
     .logo {
-        font-size: 1em;
+        font-size: 1.2em;
     }
-    .social-icon {
-        width: 0.9em;
-        height: 0.9em;
+    .desc {
+        width: 100%;
+    }
+    .toggle-break {
+        display: block;
+        margin-top: 20px;
     }
 }

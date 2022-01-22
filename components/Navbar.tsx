@@ -1,4 +1,3 @@
-import { NextComponentType } from "next"
 import Link from "next/link"
 import { currentLocation } from "../helper/helperFunctions"
 
@@ -29,23 +28,16 @@ const Navbar = (props: NavbarProps) => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/about">
-                                <a title="About">
-                                    About
-                                </a>
-                            </Link>
-                        </li>
-                        <li>
                             <Link href="/projects">
                                 <a title="Projects">
-                                    Projects
+                                    Blog
                                 </a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/resume.pdf">
                                 <a title="Resumé" target='_blank'>
-                                    Resume
+                                    Resumé
                                 </a>
                             </Link>
                         </li>
