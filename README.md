@@ -1,7 +1,12 @@
 # Personal Website for Abhishek
 
 ### TODO
-- [x] test
+
+- [x] Projects Page
+- [ ] Blog
+- [ ] Thank you page for pages i drew inspiration from
+- [ ] Buy a domain
+- [ ] Publish to said domain using netlify maybe ?
 
 
 ## Getting Started
