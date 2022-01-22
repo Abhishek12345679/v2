@@ -30,6 +30,13 @@ const Navbar = (props: NavbarProps) => {
                         <li>
                             <Link href="/projects">
                                 <a title="Projects">
+                                    Projects
+                                </a>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/blog">
+                                <a title="Blog Coming Soon!">
                                     Blog
                                 </a>
                             </Link>
