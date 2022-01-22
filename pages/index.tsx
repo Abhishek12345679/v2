@@ -6,31 +6,40 @@ import Navbar from '../components/Navbar'
 import { currentLocation, makeDayTimeString } from '../helper/helperFunctions'
 
 import { faGithub, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const Home: NextPage = () => {
   return (
     <div>
       <Head>
         <title>
-          Abheee
+          Abhee
         </title>
       </Head>
       <Navbar dayTimeString={makeDayTimeString()} currentLocation={currentLocation} />
       <section className="introduction">
-        <div className="container grid">
+        <div className="container-body flex">
           <div className="intro-text">
-            <h1>Hi! I'm Abheee.</h1>
-            <p className="info-short">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Ducimus voluptates temporibus commodi atque assumenda magnam doloremque.
-              Exercitationem dolorum recusandae deleniti, atque sint ullam cum!
-            </p>
-            <p>
-              Culpa officiis aliquid accusamus, id repellendus perspiciatis.
-              Quo in dolorem sapiente corrupti officiis nam unde quaerat.
-            </p>
-
+            <h3>Hi! My Name is </h3>
+            <h1>Abhishek Sah</h1>
+            <h2 className='bold subtitle'>
+              I love solving problems and abandoning them.
+            </h2>
+            <h3 className='regular'>
+              I am a self-taught <span className='react-native'>React Native</span> Developer solving real life problems one by one.
+              {/* <br /> <br /> */}
+              <span>
+                {" "}I am creating this website as a way to showcase the projects i have worked on and learn Browser Oriented Web Development.
+              </span>
+            </h3>
+            {/* <Image
+              className='img me-img'
+              src="/images/me.jpg"
+              width={400}
+              height={400}
+            /> */}
+            {/* <h3 className="info-short regular">
+              I am creating this website as a way to showcase the projects i have worked on and learn Browser Oriented Web Development.
+            </h3> */}
             <section>
               <ul className="socials-row flex">
                 <li>
@@ -66,7 +75,7 @@ const Home: NextPage = () => {
                     title='Sike No Photos!'
                     target='_blank'
                     referrerPolicy='origin'
-                    href="https://instagram.com/alooofries"
+                    href="https://instagram.com/abhee.tsx"
                   >
                     <FontAwesomeIcon
                       className='social-icon'
@@ -85,12 +94,7 @@ const Home: NextPage = () => {
             </section>
 
           </div>
-          <Image
-            className='img'
-            src="/images/me2.jpg"
-            width={300}
-            height={400}
-          />
+
         </div>
       </section>
     </div>

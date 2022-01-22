@@ -11,7 +11,7 @@ const Navbar = (props: NavbarProps) => {
 
     return (
         <div className="topbar">
-            <div className="container flex">
+            <div className="container grid">
                 <h3 className="logo" title="inspired by Zhenghao">
                     <Link href="/">
                         <a>
@@ -43,8 +43,8 @@ const Navbar = (props: NavbarProps) => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/Resume">
-                                <a title="Resumé">
+                            <Link href="/resume.pdf">
+                                <a title="Resumé" target='_blank'>
                                     Resume
                                 </a>
                             </Link>

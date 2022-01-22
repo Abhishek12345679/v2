@@ -7,13 +7,17 @@ export const makeDayTimeString = () => {
   const currentDay = DaysOfTheWeek[Temporal.Now.plainDateISO().dayOfWeek];
 
   const hours =
-    Temporal.Now.plainDateTimeISO().hour < 10
-      ? "0".concat(Temporal.Now.plainDateTimeISO().hour.toString())
-      : Temporal.Now.plainDateTimeISO().hour.toString();
+    Temporal.Now.zonedDateTimeISO("Asia/Kolkata").hour < 10
+      ? "0".concat(
+          Temporal.Now.zonedDateTimeISO("Asia/Kolkata").hour.toString()
+        )
+      : Temporal.Now.zonedDateTimeISO("Asia/Kolkata").hour.toString();
   const minutes =
-    Temporal.Now.plainDateTimeISO().minute < 10
-      ? "0".concat(Temporal.Now.plainDateTimeISO().minute.toString())
-      : Temporal.Now.plainDateTimeISO().minute.toString();
+    Temporal.Now.zonedDateTimeISO("Asia/Kolkata").minute < 10
+      ? "0".concat(
+          Temporal.Now.zonedDateTimeISO("Asia/Kolkata").minute.toString()
+        )
+      : Temporal.Now.zonedDateTimeISO("Asia/Kolkata").minute.toString();
 
   return `${currentDay} ${hours}:${minutes}`;
 };
