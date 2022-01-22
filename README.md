@@ -2,7 +2,8 @@
 
 ### TODO
 
-- [x] Projects Page
+- [x] Home Page 🧑🏽‍💻
+- [ ] Projects Page
 - [ ] Blog
 - [ ] Thank you page for pages i drew inspiration from
 - [ ] Buy a domain
