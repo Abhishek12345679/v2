@@ -3,7 +3,7 @@ import { ExperienceListItem } from "./ExperienceListItem";
 
 export const Experience = () => {
     return (
-        <section className="introduction">
+        <section className="introduction margin-vert-10">
             <div className="container-body">
                 <h2 className="white-font">Experience</h2>
                 {
