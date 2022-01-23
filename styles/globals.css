@@ -118,6 +118,7 @@ header {
     width: 100%;
     margin: 3em 0;
     gap: 30px;
+    font-size: 24px;
 }
 
 section .flex {
@@ -128,6 +129,7 @@ section .flex {
     color: teal;
     cursor: pointer;
     margin-bottom: 10px;
+    transition: 0.2s;
 }
 
 .btn-outline {
@@ -152,12 +154,11 @@ section .flex {
     background-color: #474747;
 }
 
-
-/* svg,
+svg,
 svg path,
 a {
     transition: 0.2s;
-} */
+}
 
 .react-native {
     /* font-weight: bold;
