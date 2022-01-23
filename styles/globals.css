@@ -152,11 +152,12 @@ section .flex {
     background-color: #474747;
 }
 
-svg,
+
+/* svg,
 svg path,
 a {
     transition: 0.2s;
-}
+} */
 
 .react-native {
     /* font-weight: bold;
