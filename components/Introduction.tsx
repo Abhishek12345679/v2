@@ -70,9 +70,7 @@ export const Introduction = () => {
                             </a>
                         </ul>
                     </section>
-
                 </div>
-
             </div>
         </section>
     )
