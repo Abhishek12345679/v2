@@ -334,6 +334,10 @@ a {
     .list-item {
         height: 400px;
     }
+    .intro-text h1 {
+        font-weight: bold;
+        font-size: 30px;
+    }
 }
 
 
@@ -362,5 +366,13 @@ a {
     }
     .list-item {
         height: 425px;
+    }
+    .intro-text h1 {
+        font-weight: bold;
+        font-size: 35px;
+    }
+    .desc {
+        font-weight: 300;
+        font-size: 15px;
     }
 }
