@@ -10,11 +10,12 @@ export const Experience = () => {
                     experiences
                         .map((exp, i) => (
                             <ExperienceListItem
+                                keyProp={i}
                                 position={exp.position}
                                 duration={exp.duration}
                                 organisation={exp.organisation}
                                 description={exp.description}
-                                techstack={exp.techstack}
+                                techstack={exp.techstack.map((tech, i) => i === exp.techstack.length - 1 ? tech.concat(".") : tech.concat(", "))}
                             />
                         ))
                 }
