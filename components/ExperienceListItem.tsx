@@ -1,6 +1,6 @@
 export const ExperienceListItem = (props: any) => {
     return (
-        <div className="list-item">
+        <div className="list-item" key={props.keyProp}>
             <div className='row1'>
                 <div className="col1">
                     <p className="white-font">{props.position}</p>
@@ -15,27 +15,13 @@ export const ExperienceListItem = (props: any) => {
                             key={index}
                             className="exp-desc-item"
                         >
-                            {item}
+                            <h3>{item}</h3>
                         </li>
                     ))
                 }
             </ul>
             <div className="flex">
-
-                <p>techstack ://{">"}</p>
-                {
-                    props.techstack.map((tech: string) => (
-                        <p style={{
-                            paddingLeft: 2,
-                            paddingRight: 2,
-                            fontSize: 15,
-                            alignItems: "center",
-                            justifyContent: 'center'
-                        }}>
-                            {tech.concat(", ")}
-                        </p>
-                    ))
-                }
+                <p className="subtitle">Tech stack used: {props.techstack} </p>
             </div>
         </div>
     );

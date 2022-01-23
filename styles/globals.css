@@ -19,7 +19,7 @@
 html,
 body {
     background-color: var(--primary-color);
-    font-family: "Lato", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: calibre, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
@@ -103,9 +103,14 @@ header {
     position: relative;
 }
 
+.name {
+    font-size: 32px;
+    font-weight: bold;
+}
+
 .intro-text h1 {
     font-weight: bold;
-    font-size: 35px;
+    font-size: 60px;
 }
 
 .socials-row {
@@ -174,8 +179,8 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #191919;
-    border: 1px #242424 solid;
-    height: 250px;
+    /* border: 1px #242424 solid; */
+    height: 300px;
     padding: 20px;
     margin: 1em 0;
     justify-content: flex-start;
@@ -211,11 +216,20 @@ a {
     padding-left: 20px;
 }
 
+.exp-desc-item h3 {
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+
 .exp-desc-item::before {
     content: "❯";
     position: absolute;
     left: 0px;
     color: green;
+}
+
+.thankyou:hover {
+    color: #a2a2a2;
 }
 
 
@@ -279,6 +293,19 @@ a {
     margin: 10px 0;
 }
 
+.margin-vert-20 {
+    margin: 20px auto;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
 
 /* add img to Image */
 
@@ -300,6 +327,13 @@ a {
     .introduction {
         /* padding: 1em 0; */
     }
+    .exp-desc-item h3 {
+        line-height: 1.3;
+        font-weight: 500;
+    }
+    .list-item {
+        height: 400px;
+    }
 }
 
 
@@ -307,7 +341,7 @@ a {
 
 @media (max-width: 500px) {
     .logo {
-        font-size: 1em;
+        font-size: 0.9em;
     }
     .desc {
         width: 100%;
@@ -317,9 +351,16 @@ a {
         margin-top: 20px;
     }
     .exp-desc-item {
-        font-size: 0.75em;
+        /* font-size: 1em; */
         margin: 10px 0;
         position: relative;
         padding-left: 20px;
+    }
+    .exp-desc-item h3 {
+        line-height: 1.3;
+        font-weight: 500;
+    }
+    .list-item {
+        height: 425px;
     }
 }

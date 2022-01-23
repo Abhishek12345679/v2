@@ -5,6 +5,7 @@ import { currentLocation, makeDayTimeString } from '../helper/helperFunctions'
 
 import { Introduction } from '../components/Introduction'
 import { Experience } from '../components/Experience'
+import { ThankYou } from '../components/ThankYou'
 
 const Home: NextPage = () => {
   return (
@@ -15,6 +16,7 @@ const Home: NextPage = () => {
       <Navbar dayTimeString={makeDayTimeString()} currentLocation={currentLocation} />
       <Introduction />
       <Experience />
+      <ThankYou />
     </div>
   )
 }

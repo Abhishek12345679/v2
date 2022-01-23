@@ -7,14 +7,13 @@ export const Introduction = () => {
             <div className="container-body flex">
                 <div className="intro-text">
                     <h3 className='margin-bottom-0'>Hi! My Name is </h3>
-                    <h1>Abhishek Sah</h1>
-                    <h2 className='bolder subtitle'>
+                    <h1 className="name">Abhishek Sah</h1>
+                    <h1 className='bolder subtitle'>
                         I love solving problems and abandoning them.
-                    </h2>
+                    </h1>
                     <h3 className='desc regular'>
                         I am a self-taught <span className='react-native'>React Native</span> Developer solving real life problems one by one.
                         <br className='toggle-break' />
-                        {/* <br className='toggle-break' /> */}
                         <span>
                             {" "}I am creating this website as a way to showcase the projects i have worked on and learn Browser Oriented Web Development.
                         </span>
