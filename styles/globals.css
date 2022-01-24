@@ -70,7 +70,7 @@ header {
 
 .topbar {
     display: flex;
-    background-color: #0f0d0c50;
+    background-color: var(--primary-color);
     color: #fff;
     /* height: 200px; */
     padding: 10px 0;
@@ -110,7 +110,7 @@ header {
     font-weight: bold;
 }
 
-.avatar {
+.rounded-shape {
     border-radius: 9999px;
 }
 
@@ -126,22 +126,27 @@ header {
 }
 
 .socials-row {
-    height: 3em;
+    height: 4em;
     width: 100%;
-    margin: 3em 0;
+    margin-top: 2em;
     gap: 30px;
-    font-size: 24px;
+    font-size: 20px;
+}
+
+.socials-row li a {
+    display: flex;
+    padding: 10px 10px;
 }
 
 section .flex {
     justify-content: flex-start;
 }
 
-.socials-row li :hover {
+.socials-row li a:hover {
     color: teal;
     cursor: pointer;
     margin-bottom: 10px;
-    transition: 0.2s;
+    transform: scale(1);
 }
 
 .btn-outline {

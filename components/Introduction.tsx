@@ -18,10 +18,9 @@ export const Introduction = () => {
                         <div className="avatar">
                             <Image
                                 src="/images/avatar.jpeg"
-                                // layout="responsive"
                                 height={200}
                                 width={200}
-                                className="avatar"
+                                className="rounded-shape"
                                 priority
                             />
                         </div>
