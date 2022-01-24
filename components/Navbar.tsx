@@ -44,8 +44,8 @@ const Navbar = (props: NavbarProps) => {
                             </li>
                             <li>
                                 <Link href="/resume.pdf">
-                                    <a title="Resumé" target='_blank'>
-                                        Resumé
+                                    <a title="Resume" target='_blank'>
+                                        Resume
                                     </a>
                                 </Link>
                             </li>
