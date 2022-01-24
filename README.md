@@ -5,6 +5,7 @@
 ### TODO
 
 - [x] Home Page 🧑🏽‍💻
+- [x] Mirrored Repo to github
 - [ ] Projects Page
 - [ ] Blog
 - [ ] Thank you page for pages i drew inspiration from
