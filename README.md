@@ -1,5 +1,7 @@
 # Abhee.dev
 
+> temporary site: https://clever-hypatia-d192ef.netlify.app/
+> permanent site: 
 ### TODO
 
 - [x] Home Page 🧑🏽‍💻
