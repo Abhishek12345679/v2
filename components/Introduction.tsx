@@ -1,16 +1,31 @@
 import { faGithub, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Image from "next/image";
 
 export const Introduction = () => {
     return (
         <section className="introduction">
             <div className="container-body flex">
                 <div className="intro-text">
-                    <h3 className='margin-bottom-0'>Hi! My Name is </h3>
-                    <h1 className="name">Abhishek Sah</h1>
-                    <h1 className='bolder subtitle'>
-                        I love solving problems and abandoning them.
-                    </h1>
+                    <div className="flex flex-start">
+                        <div className="title-subtitle-grp">
+                            <h3 className='margin-bottom-0'>Hi! My Name is </h3>
+                            <h1 className="name">Abhishek Sah</h1>
+                            <h2 className='subtitle bolder'>
+                                I love solving problems and abandoning them.
+                            </h2>
+                        </div>
+                        <div className="avatar">
+                            <Image
+                                src="/images/avatar.jpeg"
+                                // layout="responsive"
+                                height={200}
+                                width={200}
+                                className="avatar"
+                                priority
+                            />
+                        </div>
+                    </div>
                     <h3 className='desc regular'>
                         I am a self-taught <span className='react-native'>React Native</span> Developer solving real life problems one by one.
                         <br className='toggle-break' />
