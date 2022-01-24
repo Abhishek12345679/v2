@@ -7,6 +7,10 @@
 - [x] Home Page 🧑🏽‍💻
 - [x] Mirrored Repo to github
 - [ ] Projects Page
+  - [ ] Aushadhalay
+  - [ ] OrderGator
+  - [ ] Local Local Time
+  - [ ] Movie Tracker App
 - [ ] Blog
 - [ ] Thank you page for pages i drew inspiration from
 - [ ] Buy a domain
