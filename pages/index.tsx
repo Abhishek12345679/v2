@@ -13,7 +13,10 @@ const Home: NextPage = () => {
       <Head>
         <title>Abhee</title>
       </Head>
-      <Navbar dayTimeString={makeDayTimeString()} currentLocation={currentLocation} />
+      <Navbar
+        dayTimeString={makeDayTimeString()}
+        currentLocation={currentLocation}
+      />
       <Introduction />
       <Experience />
       <ThankYou />

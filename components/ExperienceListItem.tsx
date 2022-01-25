@@ -1,6 +1,9 @@
 export const ExperienceListItem = (props: any) => {
     return (
-        <div className="list-item" key={props.keyProp}>
+        <div
+            className="list-item"
+            key={props.keyProp}
+        >
             <div className='row1'>
                 <div className="col1">
                     <p className="white-font">{props.position}</p>

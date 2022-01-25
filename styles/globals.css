@@ -64,7 +64,7 @@ p {
 
 header {
     position: relative;
-    height: 5em;
+    height: 6em;
     width: 100%;
 }
 
@@ -87,13 +87,24 @@ header {
 }
 
 .topbar nav a {
-    color: #a2a2a2;
-    margin: 0 10px;
-    padding: 5px;
+    font-weight: 500;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.topbar nav a.active {
+    color: #fff;
+    background-color: #404040;
 }
 
 .topbar a:hover {
     color: #fff;
+    background-color: #262626;
+}
+
+.page-heading {
+    font-size: 3rem;
 }
 
 .introduction {
@@ -236,7 +247,7 @@ a {
 
 .exp-desc-item h3 {
     font-weight: 500;
-    margin-bottom: -10px;
+    margin-bottom: -5px;
 }
 
 .exp-desc-item::before {
@@ -271,7 +282,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* height: 100%; */
 }
 
 .grid {
@@ -312,7 +322,7 @@ a {
 }
 
 .margin-vert-20 {
-    margin: 20px auto;
+    margin: 20px 0;
 }
 
 .justify-center {
@@ -360,6 +370,9 @@ a {
     .intro-text h1 {
         font-weight: bold;
         font-size: 30px;
+    }
+    .page-heading {
+        font-size: 2rem;
     }
 }
 

@@ -5,7 +5,7 @@ import Image from "next/image";
 export const Introduction = () => {
     return (
         <section className="introduction">
-            <div className="container-body flex">
+            <div className="container-body">
                 <div className="intro-text">
                     <div className="flex flex-start">
                         <div className="title-subtitle-grp">
@@ -86,6 +86,6 @@ export const Introduction = () => {
                     </section>
                 </div>
             </div>
-        </section>
+        </section >
     )
 };
