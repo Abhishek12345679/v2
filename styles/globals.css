@@ -111,7 +111,7 @@ header {
     padding: 1em 0;
     /* height: 400px; */
     background-color: var(--primary-color);
-    color: #dddcdc;
+    color: #eeeeee;
     position: relative;
 }
 
@@ -143,7 +143,7 @@ header {
     font-size: 20px;
 }
 
-.socials-row li a {
+.socials-row li {
     display: flex;
     padding: 10px 10px;
 }
@@ -152,7 +152,7 @@ section .flex {
     justify-content: flex-start;
 }
 
-.socials-row li a:hover {
+.socials-row li:hover a {
     color: teal;
     cursor: pointer;
     margin-bottom: 10px;
@@ -254,7 +254,7 @@ a {
     content: "❯";
     position: absolute;
     left: 0px;
-    color: green;
+    color: #fff;
 }
 
 .thankyou:hover {
