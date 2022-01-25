@@ -1,5 +1,7 @@
 # Abhee.dev
 
+![landing_page](assets/landing_page.png)
+
 > temporary site: https://clever-hypatia-d192ef.netlify.app/
 > permanent site: 
 ### TODO
