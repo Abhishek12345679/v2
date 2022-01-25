@@ -444,4 +444,7 @@ a {
         display: flex;
         align-items: flex-start;
     }
+    .thankyou {
+        margin: 20px;
+    }
 }
