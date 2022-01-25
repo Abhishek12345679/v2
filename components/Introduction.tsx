@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Introduction = () => {
     return (
-        <section className="introduction">
+        <section className="introduction" id="main-content">
             <div className="container-body">
                 <div className="intro-text">
                     <div className="flex flex-start">

@@ -14,7 +14,7 @@ const projects: NextPage = () => {
                 currentLocation={currentLocation}
                 dayTimeString={makeDayTimeString()}
             />
-            <div className="container-body">
+            <div className="container-body" id="main-content">
                 <h1 className="page-heading white-font" >
                     Projects
                 </h1>

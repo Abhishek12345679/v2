@@ -6,12 +6,14 @@
 
 - [x] Home Page 🧑🏽‍💻
 - [x] Mirrored Repo to github
+- [x] Skip to main content (Accessibility)
 - [ ] Projects Page
   - [ ] Aushadhalay
   - [ ] OrderGator
   - [ ] Local Local Time
   - [ ] Movie Tracker App
 - [ ] Blog
+- [ ] Accessibility
 - [ ] Thank you page for pages i drew inspiration from
 - [ ] Buy a domain
 - [ ] Publish to said domain using netlify maybe ?

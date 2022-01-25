@@ -13,6 +13,13 @@ const Navbar = (props: NavbarProps) => {
     return (
         <header>
             <div className="topbar">
+                <a
+                    role='link'
+                    className="skip-nav-link"
+                    href="#main-content"
+                >
+                    skip navigation
+                </a>
                 <div className="container grid">
                     <h3 className="logo" title="inspired by Zhenghao">
                         <Link href="/">
@@ -21,6 +28,7 @@ const Navbar = (props: NavbarProps) => {
                             </a>
                         </Link>
                     </h3>
+
                     <nav>
                         <ul>
                             <li>
