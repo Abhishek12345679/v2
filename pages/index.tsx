@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Abhee</title>
+        <title>Abhishek Sah</title>
       </Head>
       <Navbar
         dayTimeString={makeDayTimeString()}

@@ -225,8 +225,8 @@ a {
 .list-item {
     display: flex;
     flex-direction: column;
-    background-color: #191919;
-    /* border: 1px #242424 solid; */
+    /* background-color: #191919; */
+    border: 1px #242424 solid;
     height: 300px;
     padding: 20px;
     margin: 1em 0;
@@ -257,7 +257,7 @@ a {
 }
 
 .exp-desc-item {
-    font-size: 0.9em;
+    font-size: 0.75em;
     margin: 10px 0;
     position: relative;
     padding-left: 20px;

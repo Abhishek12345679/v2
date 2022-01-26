@@ -5,7 +5,6 @@ import { currentLocation } from "../helper/helperFunctions"
 interface NavbarProps {
     dayTimeString: string;
     currentLocation: string;
-    // active: boolean;
 }
 
 const Navbar = (props: NavbarProps) => {
