@@ -20,7 +20,7 @@
 - [ ] Accessibility
 - [ ] Thank you page for pages i drew inspiration from
 - [x] Buy a domain
-- [x] Publish to said domain using netlify maybe ?
+- [x] Publish to said domain using netlify ?
 
 ## Getting Started
 

@@ -42,7 +42,7 @@ export const Introduction = () => {
                                     href="https://github.com/Abhishek12345679"
                                 >
                                     <FontAwesomeIcon
-                                        className='social-icon'
+                                        // className='social-icon'
                                         icon={faGithub} // ?
                                         size="lg"
                                     />
@@ -56,7 +56,7 @@ export const Introduction = () => {
                                     href="https://twitter.com/newbdev6969"
                                 >
                                     <FontAwesomeIcon
-                                        className='social-icon'
+                                        // className='social-icon'
                                         icon={faTwitter} // ?
                                         size="lg"
                                     />
@@ -70,7 +70,7 @@ export const Introduction = () => {
                                     href="https://instagram.com/abhee.tsx"
                                 >
                                     <FontAwesomeIcon
-                                        className='social-icon'
+                                        // className='social-icon'
                                         icon={faInstagram} // ?
                                         size="lg"
                                     />

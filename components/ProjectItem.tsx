@@ -1,3 +1,5 @@
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 
 interface ProjectItemProps {
@@ -23,8 +25,21 @@ const ProjectItem = (props: ProjectItemProps) => {
                 />
                 <div className="gradient"></div>
             </div>
-            <p>{props.title}</p>
-            <p className="subtitle">{props.subtitle}</p>
+            <div className="margin-left-5">
+                <p>{props.title}</p>
+                <p className="subtitle">{props.subtitle}</p>
+            </div>
+            <div className="social-icon">
+                <a
+                    href={props.repo_url}
+                >
+                    <FontAwesomeIcon
+                        icon={faGithub}
+                        size="lg"
+                    />
+                </a>
+
+            </div>
         </article>
     );
 };

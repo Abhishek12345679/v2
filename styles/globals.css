@@ -175,6 +175,20 @@ section .flex {
     transform: scale(1);
 }
 
+.social-icon {
+    display: flex;
+    padding: 10px;
+    height: 2rem;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.social-icon:hover a {
+    cursor: pointer;
+    margin-bottom: 5px;
+    transform: scale(1.01);
+}
+
 .btn-outline {
     display: inline-flex;
     margin-left: 10px;
@@ -274,10 +288,18 @@ a {
 
 .project-grid {
     display: grid;
-    gap: 1.5rem;
+    gap: 3rem;
     grid-template-columns: repeat(3, 1fr);
     /* grid-template-columns: 1fr 1fr 1fr; */
     padding-block: 2rem;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 200px;
+    overflow: hidden;
 }
 
 .card {
@@ -383,6 +405,14 @@ a {
 
 .margin-vert-20 {
     margin: 20px 0;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-left-5 {
+    margin-left: 5px;
 }
 
 .justify-center {
