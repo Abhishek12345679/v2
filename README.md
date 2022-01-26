@@ -2,24 +2,24 @@
 
 ![landing_page](assets/landing_page.png)
 
-> temporary site: https://clever-hypatia-d192ef.netlify.app/
-> permanent site: 
+> temporary site: <https://clever-hypatia-d192ef.netlify.app/>
+> permanent site:
+
 ### TODO
 
 - [x] Home Page 🧑🏽‍💻
 - [x] Mirrored Repo to github
 - [x] Skip to main content (Accessibility)
-- [ ] Projects Page
-  - [ ] Aushadhalay
-  - [ ] OrderGator
+- [x] Projects Page
+  - [x] Aushadhalay
+  - [x] OrderGator
   - [ ] Local Local Time
   - [ ] Movie Tracker App
 - [ ] Blog
 - [ ] Accessibility
 - [ ] Thank you page for pages i drew inspiration from
-- [ ] Buy a domain
-- [ ] Publish to said domain using netlify maybe ?
-
+- [x] Buy a domain
+- [x] Publish to said domain using netlify maybe ?
 
 ## Getting Started
 

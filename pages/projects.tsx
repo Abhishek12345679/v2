@@ -1,6 +1,7 @@
 import { NextPage } from "next"
 import Head from "next/head"
 import Navbar from "../components/Navbar"
+import Projects from "../components/Projects"
 import { currentLocation, makeDayTimeString } from "../helper/helperFunctions"
 
 const projects: NextPage = () => {
@@ -14,11 +15,7 @@ const projects: NextPage = () => {
                 currentLocation={currentLocation}
                 dayTimeString={makeDayTimeString()}
             />
-            <div className="container-body" id="main-content">
-                <h1 className="page-heading white-font" >
-                    Projects
-                </h1>
-            </div>
+            <Projects />
         </div>
     )
 }

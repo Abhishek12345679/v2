@@ -10,14 +10,4 @@ export const experiences = [
     ],
     techstack: ["React Native", "Expo", "Firebase", "Typescript", "NodeJS"],
   },
-  // {
-  //   position: "Freelance Developer",
-  //   organisation: "Freelancer.com",
-  //   duration: "Jan 2021 - July 2021",
-  //   description: [
-  //     "Mentored a client who wanted to transition into tech successfully",
-  //     "Helped a client fix their amazon s3 bucket",
-  //   ],
-  //   techstack: ["React Native", "Javascript", "Firebase", "AWS", "NodeJS"],
-  // },
 ];

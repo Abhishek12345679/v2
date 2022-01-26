@@ -1,6 +1,6 @@
 export const ExperienceListItem = (props: any) => {
     return (
-        <div
+        <section
             className="list-item"
             key={props.keyProp}
         >
@@ -26,6 +26,6 @@ export const ExperienceListItem = (props: any) => {
             <div className="flex">
                 <p className="subtitle">Tech stack used: {props.techstack} </p>
             </div>
-        </div>
+        </section>
     );
 };
