@@ -185,8 +185,9 @@ section .flex {
 
 .social-icon:hover a {
     cursor: pointer;
-    margin-bottom: 5px;
-    transform: scale(1.01);
+    margin-bottom: 10px;
+    transform: scale(1);
+    transition: transform 1s ease-in;
 }
 
 .btn-outline {
@@ -298,21 +299,21 @@ a {
     display: flex;
     flex-direction: column;
     height: 400px;
-    width: 200px;
+    width: 225px;
     overflow: hidden;
 }
 
 .card {
     display: flex;
     height: 200px;
-    width: 200px;
+    width: 225px;
     background-color: #f1f1f1;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
     /* margin-right: 10px; */
 }
 
