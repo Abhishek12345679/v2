@@ -7,8 +7,6 @@ export const makeDayTimeString = () => {
   const currentDay =
     DaysOfTheWeek[Temporal.Now.zonedDateTimeISO("Asia/Kolkata").dayOfWeek - 1];
 
-  console.log(Temporal.Now.zonedDateTimeISO("Asia/Kolkata").dayOfWeek);
-
   const hours =
     Temporal.Now.zonedDateTimeISO("Asia/Kolkata").hour < 10
       ? "0".concat(
