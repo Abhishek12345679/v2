@@ -2,14 +2,6 @@ import { faGithub, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-i
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 
-
-import type { InferGetStaticPropsType } from "next";
-import { getPlaiceholder } from "plaiceholder"
-export const getStaticProps = async () => {
-    const { css, img } = await getPlaiceholder("/path-to-your-image.jpg");
-    return { props: { img, css, }, };
-};
-
 export const Introduction = () => {
     return (
         <section className="introduction" id="main-content">
