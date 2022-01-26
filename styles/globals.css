@@ -479,4 +479,16 @@ a {
     .thankyou {
         margin: 20px;
     }
+    .project-grid {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 1em;
+    }
+    .project-item {
+        width: 350px;
+        height: 450px;
+    }
+    .card {
+        width: 325px;
+        height: 325px;
+    }
 }
