@@ -309,6 +309,10 @@ a {
     position: absolute;
 }
 
+.avatar {
+    /* transition: transform 385ms ease-out; */
+}
+
 
 /* utilities */
 

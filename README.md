@@ -15,6 +15,7 @@
   - [x] OrderGator
   - [ ] Local Local Time
   - [ ] Movie Tracker App
+- [ ] Add Animation to loading avatar
 - [ ] Blog
 - [ ] Accessibility
 - [ ] Thank you page for pages i drew inspiration from
