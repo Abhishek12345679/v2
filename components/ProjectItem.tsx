@@ -19,6 +19,7 @@ const ProjectItem = (props: ProjectItemProps) => {
                     src={props.image}
                     width={200}
                     height={200}
+                    priority
                 />
                 <div className="gradient"></div>
             </div>

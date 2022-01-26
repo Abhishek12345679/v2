@@ -17,11 +17,13 @@ export const Introduction = () => {
                         </div>
                         <div className="avatar">
                             <Image
+                                placeholder="blur"
                                 src="/images/avatar.jpeg"
                                 height={200}
                                 width={200}
                                 className="rounded-shape"
                                 priority
+
                             />
                         </div>
                     </div>
