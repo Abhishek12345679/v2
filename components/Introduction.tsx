@@ -30,14 +30,14 @@ export const Introduction = (props: NowPlayingProps) => {
                         {/* <div className={`avatar${!props.nowPlaying.isPlaying ? " pos-absolute flex-end" : ""}`}> */}
                         {props.nowPlaying &&
                             <div className="avatar-listening">
-                                <NowPlayingBubble nowPlaying={props.nowPlaying} />
+                                {props.nowPlaying && props.nowPlaying.isPlaying && <NowPlayingBubble nowPlaying={props.nowPlaying} />}
                                 <div className={`avatar`}>
                                     <Image
                                         src={props.nowPlaying.isPlaying ? "/images/avatar_listening_music.webp" : "/images/avatar.jpeg"}
                                         // src={"/images/avatar.jpeg"}
                                         height={150}
                                         width={150}
-                                        className="rounded-shape"
+                                        className="rounded-shape margin-left-10"
                                         priority
                                     />
                                 </div>
