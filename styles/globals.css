@@ -234,7 +234,7 @@ a {
 }
 
 .title-subtitle-grp .subtitle {
-    width: 75%;
+    /* width: 75%; */
 }
 
 .toggle-break {
@@ -371,6 +371,22 @@ a {
 .avatar {
     /* top: 0; */
     right: 0;
+}
+
+.now-playing-bubble {
+    display: relative;
+    display: flex;
+    width: 170px;
+    height: 70px;
+    background-color: #c78a18;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    font-size: 0.75em;
+    padding: 20px;
+    font-weight: 500;
 }
 
 
@@ -591,5 +607,25 @@ a {
     .card {
         width: 325px;
         height: 325px;
+    }
+    .now-playing-bubble {
+        width: 200px;
+        height: 60px;
+        background-color: #c78a18;
+        align-items: center;
+        border-radius: 20px;
+        margin: 0 20px;
+        /* margin-left: 100px; */
+        font-size: 0.7em;
+        padding: 25px 20px;
+        font-weight: 500;
+        z-index: 10;
+        box-shadow: #ac7614;
+    }
+    .avatar-listening {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        /* background-color: red; */
     }
 }
