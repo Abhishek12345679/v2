@@ -370,19 +370,24 @@ a {
 
 .avatar {
     /* top: 0; */
-    right: 0;
+    /* left: 0; */
+    margin-left: 20px;
+}
+
+.avatar-listening {
+    margin: 0 0 20px 30px;
 }
 
 .now-playing-bubble {
     display: relative;
     display: flex;
-    width: 170px;
+    width: 200px;
     height: 70px;
     background-color: #c78a18;
     /* justify-content: center; */
     align-items: center;
     border-radius: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-left: 100px;
     font-size: 0.75em;
     padding: 20px;
@@ -621,11 +626,14 @@ a {
         font-weight: 500;
         z-index: 10;
         box-shadow: #ac7614;
+        overflow: hidden;
     }
     .avatar-listening {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-around;
+        padding: 0px 0px;
+        margin: 0px 0px;
         /* background-color: red; */
     }
 }
