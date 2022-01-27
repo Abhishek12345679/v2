@@ -7,7 +7,7 @@ const NowPlayingBubble = (props: NowPlayingProps) => {
             {props.nowPlaying &&
                 <a href={props.nowPlaying.songUrl}>
                     <Image
-                        src={props.nowPlaying.albumImageUrl}
+                        src={props.nowPlaying.albumImageUrl!}
                         width={60}
                         height={60}
                     />
