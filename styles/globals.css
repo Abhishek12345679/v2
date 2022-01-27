@@ -233,8 +233,18 @@ a {
     margin-bottom: 25px;
 }
 
+.title-subtitle-grp .subtitle {
+    width: 75%;
+}
+
 .toggle-break {
     display: none;
+}
+
+.tones {
+    display: flex;
+    width: 200px;
+    height: 150px;
 }
 
 
@@ -343,6 +353,24 @@ a {
 
 .pos-absolute {
     position: absolute;
+}
+
+.pos-relative {
+    position: relative;
+}
+
+.flex-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.z-index-10 {
+    z-index: 10;
+}
+
+.avatar {
+    /* top: 0; */
+    right: 0;
 }
 
 
@@ -468,6 +496,22 @@ a {
     .page-heading {
         font-size: 2rem;
     }
+    .avatar {
+        width: 150px;
+        height: 150px;
+    }
+    .tone-width {
+        width: 25px;
+        height: 25px;
+    }
+    .tones {
+        /* background-color: red; */
+        justify-content: center;
+        width: 200px;
+        height: 115px;
+        top: 0px;
+        right: 10px;
+    }
 }
 
 
@@ -513,8 +557,21 @@ a {
         flex-direction: column-reverse;
     }
     .avatar {
+        left: 0;
+        top: 0;
         width: 80px;
         height: 80px;
+    }
+    .tone-width {
+        width: 15px;
+        height: 15px;
+    }
+    .tones {
+        justify-content: center;
+        width: 80px;
+        height: 80px;
+        top: 10px;
+        left: 0px;
     }
     .flex-start {
         display: flex;

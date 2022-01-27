@@ -5,11 +5,14 @@ const blog = () => {
     return (
         <div>
             <Navbar dayTimeString={makeDayTimeString()} currentLocation={currentLocation} />
-            <div className="container-body" id="main-content">
-                <h1 className="page-heading white-font">
-                    Blog
-                </h1>
-            </div>
+            <section className="introduction">
+                <div className="container-body" id="main-content">
+                    <h1 className="page-heading white-font">
+                        Blog
+                    </h1>
+                </div>
+
+            </section>
         </div>
     )
 };

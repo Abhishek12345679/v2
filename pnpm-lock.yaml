@@ -16,6 +16,7 @@ specifiers:
   next: 12.0.8
   react: 17.0.2
   react-dom: 17.0.2
+  swr: ^1.2.0
   typescript: 4.5.4
 
 dependencies:
@@ -29,6 +30,7 @@ dependencies:
   next: 12.0.8_11ff11544d2bce3b43fc9d53812dafa4
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
+  swr: 1.2.0_react@17.0.2
 
 devDependencies:
   '@types/node': 17.0.8
@@ -2190,6 +2192,14 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
     dev: true
+
+  /swr/1.2.0_react@17.0.2:
+    resolution: {integrity: sha512-C3IXeKOREn0jQ1ewXRENE7ED7jjGbFTakwB64eLACkCqkF/A0N2ckvpCTftcaSYi5yV36PzoehgVCOVRmtECcA==}
+    peerDependencies:
+      react: ^16.11.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 17.0.2
+    dev: false
 
   /text-table/0.2.0:
     resolution: {integrity: sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=}
