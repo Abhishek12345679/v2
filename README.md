@@ -2,7 +2,7 @@
 
 ![landing_page](assets/landing_page.png)
 
-> temporary site: <https://clever-hypatia-d192ef.netlify.app/>
+> temporary site: <https://clever-hypatia-d192ef.netlify.app/></br>
 > permanent site:
 
 ### TODO

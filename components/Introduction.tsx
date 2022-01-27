@@ -1,8 +1,15 @@
 import { faGithub, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
+import { useEffect } from "react";
+import { getNowPlaying } from "../helper/spotify";
 
 export const Introduction = () => {
+
+    // useEffect(() => {
+    //     getNowPlaying()
+    // }, [])
+
     return (
         <section className="introduction" id="main-content">
             <div className="container-body">

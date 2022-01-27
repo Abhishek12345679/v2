@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #0f0d0c;
+    --secondary-color: #262626;
 }
 
 * {
@@ -107,11 +108,13 @@ header {
     margin: 10px;
     padding: 10px;
     border-radius: 5px;
+    color: #ccc;
 }
 
 .topbar nav a.active {
     color: #fff;
     background-color: #404040;
+    font-weight: bold;
 }
 
 .topbar nav a:hover {
@@ -179,15 +182,22 @@ section .flex {
     display: flex;
     padding: 10px;
     height: 2rem;
+    width: 2rem;
     /* justify-content: center; */
     align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.social-icon:hover {
+    background-color: var(--secondary-color);
 }
 
 .social-icon:hover a {
     cursor: pointer;
-    margin-bottom: 10px;
-    transform: scale(1);
-    transition: transform 1s ease-in;
+    /* margin-bottom: 10px; */
+    /* transform: scale(1.2); */
+    /* transition: margin-bottom 185ms ease-in; */
 }
 
 .btn-outline {
@@ -300,7 +310,6 @@ a {
     flex-direction: column;
     height: 400px;
     width: 225px;
-    overflow: hidden;
 }
 
 .card {
@@ -310,11 +319,9 @@ a {
     background-color: #f1f1f1;
     border-radius: 10px;
     position: relative;
-    overflow: hidden;
     justify-content: center;
     align-items: center;
     padding: 40px;
-    /* margin-right: 10px; */
 }
 
 .card:hover {
