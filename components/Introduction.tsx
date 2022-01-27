@@ -33,7 +33,7 @@ export const Introduction = (props: NowPlayingProps) => {
                                 <NowPlayingBubble nowPlaying={props.nowPlaying} />
                                 <div className={`avatar`}>
                                     <Image
-                                        src={props.nowPlaying.isPlaying ? "/images/avatar_listening_music.gif" : "/images/avatar.jpeg"}
+                                        src={props.nowPlaying.isPlaying ? "/images/avatar_listening_music.webp" : "/images/avatar.jpeg"}
                                         // src={"/images/avatar.jpeg"}
                                         height={150}
                                         width={150}

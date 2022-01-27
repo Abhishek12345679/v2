@@ -381,10 +381,10 @@ a {
 .now-playing-bubble {
     display: relative;
     display: flex;
-    width: 200px;
+    width: 250px;
     height: 70px;
     background-color: #c78a18;
-    /* justify-content: center; */
+    justify-content: flex-start;
     align-items: center;
     border-radius: 20px;
     margin-bottom: 0px;
@@ -396,6 +396,10 @@ a {
 
 
 /* utilities */
+
+.padding-h-10 {
+    padding: 0 10px;
+}
 
 .container {
     max-width: 900px;
