@@ -15,6 +15,7 @@
   - [x] OrderGator
   - [ ] Local Local Time
   - [ ] Movie Tracker App
+- [x] Added Spotify Now Playing
 - [ ] Add Animation to loading avatar
 - [ ] Blog
 - [ ] Accessibility

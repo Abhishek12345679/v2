@@ -89,7 +89,7 @@ export const Introduction = (props: NowPlayingProps) => {
                                     href="https://github.com/Abhishek12345679"
                                 >
                                     <FontAwesomeIcon
-                                        icon={faGithub} // ?
+                                        icon={faGithub}
                                         size="lg"
                                     />
                                 </a>
@@ -102,7 +102,7 @@ export const Introduction = (props: NowPlayingProps) => {
                                     href="https://twitter.com/newbdev6969"
                                 >
                                     <FontAwesomeIcon
-                                        icon={faTwitter} // ?
+                                        icon={faTwitter}
                                         size="lg"
                                     />
                                 </a>
@@ -112,10 +112,10 @@ export const Introduction = (props: NowPlayingProps) => {
                                     title='Sike No Photos!'
                                     target='_blank'
                                     referrerPolicy='origin'
-                                    href="https://instagram.com/abhee.tsx"
+                                    href="https://instagram.com/abhii.dev"
                                 >
                                     <FontAwesomeIcon
-                                        icon={faInstagram} // ?
+                                        icon={faInstagram}
                                         size="lg"
                                     />
                                 </a>
