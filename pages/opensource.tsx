@@ -1,15 +1,14 @@
 import Navbar from "../components/Navbar";
-import Thanks from "../components/Thanks";
+import ThanksSegmentedControl from "../components/ThanksSegmentedControl";
 import { makeDayTimeString, currentLocation } from "../helper/helperFunctions";
 
-const thanks = () => {
+const opensource = () => {
     return (
         <div>
             <Navbar dayTimeString={makeDayTimeString()} currentLocation={currentLocation} />
-            <Thanks />
+            <ThanksSegmentedControl />
         </div>
     );
 };
 
-export default thanks;
-
+export default opensource;

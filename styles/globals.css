@@ -398,6 +398,40 @@ a {
   border-radius: 5px;
 }
 
+.segmented-control {
+  display: flex;
+  width: 100%;
+  /* background-color: red; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.segmented-control-container {
+  display: flex;
+}
+
+.segmented-control-button {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  padding: 5px 10px;
+  background-color: rgb(26, 116, 219);
+  margin: 0 10px;
+  /* color: #0f0d0c; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: 300;
+  transform: scale(0.9);
+}
+
+.active-control {
+  background-color: #fff;
+  color: rgb(26, 116, 219);
+  transform: scale(1.1);
+  font-weight: 500;
+}
+
 /* utilities */
 
 .padding-h-10 {

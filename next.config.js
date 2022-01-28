@@ -6,7 +6,12 @@ const nextConfig = {
 
 module.exports = {
   images: {
-    domains: ["i.scdn.co"],
+    domains: [
+      "i.scdn.co",
+      "twitter.com",
+      "avatars.githubusercontent.com",
+      "www.zhenghao.io",
+    ],
   },
   nextConfig,
 };
