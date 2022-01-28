@@ -14,7 +14,7 @@ const inspiration = () => {
                     className="container-body"
                     id="main-content"
                 >
-                    <h3>Thanks to these developers/designers for making such cool websites</h3>
+                    <h3 className="bold">Thank you to these developers/designers for making such cool websites</h3>
                     <div className="project-grid">
                         {
                             inspirations.map((insp: any, index: number) => (

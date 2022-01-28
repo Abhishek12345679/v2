@@ -20,6 +20,12 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Abhishek Sah</title>
+        <link rel="icon" href="favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta name="Abhishek sah" content="Personal Website for Abhishek Sah" />
+        <link rel="avatar" href="%PUBLIC_URL%/avatar.jpeg" />
+
       </Head>
       <Navbar
         dayTimeString={makeDayTimeString()}
