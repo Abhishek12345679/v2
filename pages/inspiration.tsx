@@ -14,6 +14,7 @@ const inspiration = () => {
                     className="container-body"
                     id="main-content"
                 >
+                    <h3>Thanks to these developers/designers for making such cool websites</h3>
                     <div className="project-grid">
                         {
                             inspirations.map((insp: any, index: number) => (
@@ -27,7 +28,7 @@ const inspiration = () => {
                                     twitter_url={insp.twitter_url}
                                     instagram_url={insp.instagram_url}
                                     github_url={insp.github_url}
-                                    repo_url={insp.repo_url}
+                                    repo_url={insp.repo_url === "" ? insp.github_url : insp.repo_url}
                                     linkedin_url={insp.linkedin_url}
                                 />
                             ))

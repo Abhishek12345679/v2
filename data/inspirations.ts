@@ -58,7 +58,7 @@ export const inspirations = [
     image: "https://avatars.githubusercontent.com/u/9113740?v=4",
     title: "Lee Robinson",
     subtitle: "Lee Robinson's Personal Website",
-    repo_url: "https://cedericprivat.com/",
+    repo_url: "",
     external_url: "https://leerob.io/",
     twitter_url: "https://twitter.com/leeerob",
     instagram_url: "",

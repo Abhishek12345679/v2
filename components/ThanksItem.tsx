@@ -1,4 +1,4 @@
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
@@ -49,15 +49,56 @@ const ThanksItem = (props: ThanksItemProps) => {
                 </div>
                 <p className="subtitle">{props.subtitle}</p>
             </div>
-            <div className="social-icon">
-                <a
-                    href={props.repo_url}
-                >
-                    <FontAwesomeIcon
-                        icon={faGithub}
-                        size="lg"
-                    />
-                </a>
+            <div className="flex">
+                {props.repo_url!.length > 0
+                    && props.github_url.length > 0
+                    ? <a
+                        className="social-icon"
+                        href={props.repo_url!}
+                    >
+                        <FontAwesomeIcon
+                            icon={faGithub}
+                            size="lg"
+                        />
+                    </a> :
+                    <></>
+                }
+                {props.instagram_url!.length > 0 ?
+                    <a
+                        className="margin-left-10 social-icon"
+                        href={props.instagram_url!}
+                    >
+                        <FontAwesomeIcon
+                            icon={faInstagram}
+                            size="lg"
+                        />
+                    </a> :
+                    <></>
+                }
+                {props.linkedin_url!.length > 0 ?
+                    <a
+                        className="margin-left-10 social-icon"
+                        href={props.linkedin_url!}
+                    >
+                        <FontAwesomeIcon
+                            icon={faLinkedin}
+                            size="lg"
+                        />
+                    </a> :
+                    <></>
+                }
+                {props.twitter_url!.length > 0 ?
+                    <a
+                        className="margin-left-10 social-icon"
+                        href={props.twitter_url!}
+                    >
+                        <FontAwesomeIcon
+                            icon={faTwitter}
+                            size="lg"
+                        />
+                    </a> :
+                    <></>
+                }
             </div>
         </article>
     );
