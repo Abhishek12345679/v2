@@ -14,14 +14,14 @@ const ThanksSegmentedControl = () => {
                 </h1>
                 <div className="segmented-control">
                     <div className="flex segmented-control-container">
-                        <div className={`segmented-control-button ${router.pathname == "/inspiration" ? "active-control" : ""}`}>
+                        <div>
                             <Link href="/inspiration">
-                                <a>Inspiration</a>
+                                <a className={`segmented-control-button ${router.pathname == "/inspiration" ? "active-control" : ""}`}>Inspiration</a>
                             </Link>
                         </div>
-                        <div className={`segmented-control-button ${router.pathname == "/opensource" ? "active-control" : ""}`}>
+                        <div>
                             <Link href="/opensource">
-                                <a>Open Source</a>
+                                <a className={`segmented-control-button ${router.pathname == "/opensource" ? "active-control" : ""}`}>Open Source</a>
                             </Link>
                         </div>
                     </div>

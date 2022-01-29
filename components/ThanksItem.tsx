@@ -27,8 +27,8 @@ const ThanksItem = (props: ThanksItemProps) => {
                 <Image
                     className="pos-absolute"
                     src={props.image}
-                    width={200}
-                    height={200}
+                    width={300}
+                    height={300}
                     priority
                 />
                 <div className="gradient"></div>
