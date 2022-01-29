@@ -433,8 +433,10 @@ a {
 .toggle-button {
     display: none;
     position: absolute;
-    top: 2.3rem;
+    top: 2rem;
     right: 1.25rem;
+    padding: 5px;
+    border-radius: 2px;
 }
 
 
@@ -706,6 +708,10 @@ a {
     }
     .toggle-button {
         display: flex;
+        cursor: pointer;
+    }
+    .toggle-button:hover {
+        background-color: var(--secondary-color);
     }
     .topbar .container {
         display: flex;
