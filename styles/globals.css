@@ -171,19 +171,11 @@ section .flex {
     justify-content: flex-start;
 }
 
-.socials-row li:hover a {
-    color: teal;
-    cursor: pointer;
-    margin-bottom: 10px;
-    transform: scale(1);
-}
-
 .social-icon {
     display: flex;
-    padding: 10px;
+    padding: 20px;
     height: 2rem;
     width: 2rem;
-    /* justify-content: center; */
     align-items: center;
     justify-content: center;
     border-radius: 5px;
@@ -547,9 +539,6 @@ a {
     .topbar ul>*:first-child {
         display: none;
     }
-    .introduction {
-        /* padding: 1em 0; */
-    }
     .exp-desc-item h3 {
         line-height: 1.3;
         font-weight: 500;
@@ -682,5 +671,19 @@ a {
         padding: 0px 0px;
         margin: 0px 0px;
         /* background-color: red; */
+    }
+    .social-icon {
+        display: flex;
+        padding: 10px 0px;
+        height: 1.5rem;
+        width: 1.5rem;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+    .mobile-social-icon {
+        display: flex;
+        height: 1.25rem;
+        width: 1.25rem;
     }
 }

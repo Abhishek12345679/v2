@@ -83,12 +83,14 @@ export const Introduction = (props: NowPlayingProps) => {
                         <ul className="socials-row flex">
                             <li>
                                 <a
+                                    className="social-icon"
                                     title='Follow me on Github!'
                                     target='_blank'
                                     referrerPolicy='origin'
                                     href="https://github.com/Abhishek12345679"
                                 >
                                     <FontAwesomeIcon
+                                        className="mobile-social-icon"
                                         icon={faGithub}
                                         size="lg"
                                     />
@@ -96,12 +98,14 @@ export const Introduction = (props: NowPlayingProps) => {
                             </li>
                             <li>
                                 <a
+                                    className="social-icon"
                                     title='You will be disappointed!'
                                     target='_blank'
                                     referrerPolicy='origin'
                                     href="https://twitter.com/newbdev6969"
                                 >
                                     <FontAwesomeIcon
+                                        className="mobile-social-icon"
                                         icon={faTwitter}
                                         size="lg"
                                     />
@@ -109,12 +113,14 @@ export const Introduction = (props: NowPlayingProps) => {
                             </li>
                             <li>
                                 <a
+                                    className="social-icon"
                                     title='Sike No Photos!'
                                     target='_blank'
                                     referrerPolicy='origin'
                                     href="https://instagram.com/abhii.dev"
                                 >
                                     <FontAwesomeIcon
+                                        className="mobile-social-icon"
                                         icon={faInstagram}
                                         size="lg"
                                     />
