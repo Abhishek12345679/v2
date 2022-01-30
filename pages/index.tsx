@@ -20,12 +20,15 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Abhishek Sah</title>
-        <link rel="icon" href="favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#000000" />
-        <meta name="Abhishek sah" content="Personal Website for Abhishek Sah" />
-        <link rel="avatar" href="%PUBLIC_URL%/avatar.jpeg" />
+        <meta name='description' content="Homepage of my personal website which houses a short description and my experience." />
 
+        {/* Twitter Summary Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@newbdev6969" />
+        <meta name="twitter:creator" content="@newbdev6969" />
+        <meta name="twitter:title" content="Abhishek Sah" />
+        <meta name="twitter:description" content="Homepage of my personal website which houses a short description and my experience." />
+        <meta name="twitter:image" content="/favicon-32x32.png" />
       </Head>
       <Navbar
         dayTimeString={makeDayTimeString()}
