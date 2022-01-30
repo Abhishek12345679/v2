@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         <meta name="twitter:creator" content="@newbdev6969" />
         <meta name="twitter:title" content="Abhishek Sah" />
         <meta name="twitter:description" content="Homepage of my personal website which houses a short description and my experience." />
-        <meta name="twitter:image" content="/favicon-32x32.png" />
+        <meta name="twitter:image" content="public/favicon-32x32.png" />
       </Head>
       <Navbar
         dayTimeString={makeDayTimeString()}
