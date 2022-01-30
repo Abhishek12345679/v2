@@ -21,14 +21,13 @@ const Home: NextPage = () => {
       <Head>
         <title>Abhishek Sah</title>
         <meta name='description' content="Homepage of my personal website which houses a short description and my experience." />
-
         {/* Twitter Summary Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@newbdev6969" />
         <meta name="twitter:creator" content="@newbdev6969" />
         <meta name="twitter:title" content="Abhishek Sah" />
         <meta name="twitter:description" content="Homepage of my personal website which houses a short description and my experience." />
-        <meta name="twitter:image" content="public/favicon-32x32.png" />
+        <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/24722640?v=4" />
       </Head>
       <Navbar
         dayTimeString={makeDayTimeString()}
