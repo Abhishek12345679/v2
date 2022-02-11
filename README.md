@@ -1,4 +1,4 @@
-# [Abhee.dev](https://abhii.dev/̌)
+# [abhii.dev](https://abhii.dev/̌)
 
 ![landing_page](assets/landing_page.png)
 
@@ -10,8 +10,6 @@
 
 > Hosted on Netlify.
 > Domain from Namecheap.
-
-
 
 ### TODO
 
