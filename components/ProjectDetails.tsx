@@ -15,9 +15,9 @@ export interface ProjectDetailsProps {
 
 const ProjectDetails = ({ project }: ProjectDetailsProps) => {
     return (
-        <div>
+        <div style={{ padding: 20 }}>
             {project &&
-                <div>
+                <>
                     <Image
                         src={project.image}
                         height={150}
@@ -33,7 +33,7 @@ const ProjectDetails = ({ project }: ProjectDetailsProps) => {
                         {project.description}
                     </p>
                     {project.techstack.map((ts) => <li className='white-font'>{ts}</li>)}
-                </div>
+                </>
             }
         </div>
     )

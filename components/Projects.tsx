@@ -8,15 +8,15 @@ import ProjectDetails from "./ProjectDetails";
 const ModalStyle = {
     content: {
         // centering-the-div :trolley:
-        top: '50%',
+        top: '55%',
         left: '50%',
         marginRight: '-50%',
         transform: 'translate(-50%, -50%)',
 
         maxWidth: '1100px',
-        height: '700px',
+        height: '600px',
         backgroundColor: '#4e4e4e',
-        borderWidth: 0
+        borderWidth: 0,
     },
     overlay: {
         backgroundColor: '#00000075'
