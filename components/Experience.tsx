@@ -9,7 +9,7 @@ export const Experience = () => {
                 <div className="margin-left-5">
                     {
                         experiences
-                            .map((exp, i) => (
+                            .map((exp, i: number) => (
                                 <ExperienceListItem
                                     keyProp={i}
                                     position={exp.position}

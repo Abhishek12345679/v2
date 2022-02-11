@@ -230,8 +230,9 @@ a {
     margin-bottom: 25px;
 }
 
-.title-subtitle-grp .subtitle {
-    /* width: 75%; */
+.subtitle :hover {
+    color: pink;
+    transition: 200ms ease-in;
 }
 
 .toggle-break {

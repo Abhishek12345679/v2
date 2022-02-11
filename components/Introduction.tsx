@@ -1,6 +1,7 @@
 import { faGithub, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
+import Link from "next/link";
 import NowPlayingBubble from "./NowPlayingBubble";
 
 
@@ -19,58 +20,31 @@ export const Introduction = (props: NowPlayingProps) => {
     return (
         <section className="introduction" id="main-content">
             <div className="container-body">
-                {/* <div className={`intro-text${!props.nowPlaying.isPlaying ? " pos-relative" : ""}`}> */}
                 <div className={`intro-text`}>
                     <div className="flex flex-start">
                         <div className="title-subtitle-grp">
                             <h3 className='margin-bottom-0'>Hi! My Name is </h3>
                             <h1 className="name">Abhishek Sah</h1>
-                            <h2 className='subtitle bolder'>I love solving problems and abandoning them.</h2>
+                            <Link href="/projects">
+                                <a className='subtitle bolder'>
+                                    <h2>I love solving problems and abandoning them lol 😫</h2>
+                                </a>
+                            </Link>
                         </div>
-                        {/* <div className={`avatar${!props.nowPlaying.isPlaying ? " pos-absolute flex-end" : ""}`}> */}
                         {props.nowPlaying &&
                             <div className="avatar-listening">
                                 {props.nowPlaying && props.nowPlaying.isPlaying && <NowPlayingBubble nowPlaying={props.nowPlaying} />}
-                                <div className={`avatar`}>
+                                <div className="avatar">
                                     <Image
                                         src={props.nowPlaying.isPlaying ? "/images/avatar_listening_music.webp" : "/images/avatar.jpeg"}
-                                        // src={"/images/avatar.jpeg"}
-                                        height={150}
-                                        width={150}
+                                        height={props.nowPlaying.isPlaying ? 125 : 200}
+                                        width={props.nowPlaying.isPlaying ? 125 : 200}
                                         className="rounded-shape margin-left-10"
                                         priority
                                     />
                                 </div>
                             </div>
                         }
-                        {/* {props.nowPlaying.isPlaying && <div className="tones">
-                                <div className="tone-width">
-                                    <Image
-                                        className="tone-width"
-                                        src="/images/tones/1.png"
-                                        height={40}
-                                        width={40}
-                                        priority
-                                    />
-                                </div>
-                                <div className="tone-width">
-                                    <Image
-                                        src="/images/tones/2.png"
-                                        height={40}
-                                        width={40}
-                                        priority
-                                    />
-                                </div>
-                                <div className="tone-width">
-                                    <Image
-                                        className="pos-relative"
-                                        src="/images/tones/3.png"
-                                        height={40}
-                                        width={40}
-                                        priority
-                                    />
-                                </div>
-                            </div>} */}
                     </div>
                     <h3 className='desc regular'>
                         I am a self-taught <span className='react-native'>React Native</span> Developer solving real life problems one by one.
