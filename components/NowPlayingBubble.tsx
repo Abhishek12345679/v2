@@ -19,8 +19,8 @@ const NowPlayingBubble = (props: NowPlayingProps) => {
                         <div className="rounded-rect">
                             <Image
                                 src={props.nowPlaying.albumImageUrl}
-                                width={50}
-                                height={50}
+                                width={40}
+                                height={40}
                                 layout="fixed"
                             />
                         </div>

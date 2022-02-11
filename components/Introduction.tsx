@@ -33,7 +33,10 @@ export const Introduction = (props: NowPlayingProps) => {
                         </div>
                         {props.nowPlaying &&
                             <div className="avatar-listening">
-                                {props.nowPlaying && props.nowPlaying.isPlaying && <NowPlayingBubble nowPlaying={props.nowPlaying} />}
+                                {props.nowPlaying &&
+                                    props.nowPlaying.isPlaying &&
+                                    <NowPlayingBubble nowPlaying={props.nowPlaying} />
+                                }
                                 <div className="avatar">
                                     <Image
                                         src={props.nowPlaying.isPlaying ? "/images/avatar_listening_music.webp" : "/images/avatar.jpeg"}
