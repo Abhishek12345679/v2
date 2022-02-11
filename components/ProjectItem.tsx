@@ -30,14 +30,14 @@ const ProjectItem = (props: ProjectItemProps) => {
                 <p className="subtitle">{props.subtitle}</p>
             </div>
             <div className="social-icon">
-                <a
+                {props.repo_url && <a
                     href={props.repo_url}
                 >
                     <FontAwesomeIcon
                         icon={faGithub}
                         size="lg"
                     />
-                </a>
+                </a>}
 
             </div>
         </article>

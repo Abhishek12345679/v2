@@ -13,7 +13,7 @@ export const projects = [
       "MongoDB",
       "Python",
     ],
-    repo_url: "https://github.com/Abhishek12345679/AushNative",
+    repo_url: "",
     media: "",
   },
   {
@@ -26,14 +26,4 @@ export const projects = [
     repo_url: "https://github.com/Abhishek12345679/CourierTrackerRNApp",
     media: "",
   },
-
-  // {
-  //   image: "",
-  //   title: "",
-  //   subtitle: "",
-  //   description: "",
-  //   techstack: ["React Native", "Expo", "Firebase", "Typescript", "NodeJS"],
-  //   repo_url: "",
-  //   media: "",
-  // },
 ];
