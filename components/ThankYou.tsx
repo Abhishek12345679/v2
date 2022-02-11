@@ -8,6 +8,7 @@ export const ThankYou = () => {
             <Link href="/inspiration">
                 <a className="thankyou" title="Click this link to see the Websites inspired me.">
                     <FontAwesomeIcon
+                        className="margin-right-10"
                         icon={faExternalLink}
                         size="sm"
                     />
