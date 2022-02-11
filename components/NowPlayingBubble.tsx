@@ -6,6 +6,8 @@ const NowPlayingBubble = (props: NowPlayingProps) => {
 
     const { data, loading, error } = usePalette(props.nowPlaying ? props.nowPlaying.albumImageUrl! : "")
 
+    const nowPlayingBubble = document.getElementsByClassName('now-playing-bubble')
+
     return (
         <div
             style={{
@@ -30,7 +32,6 @@ const NowPlayingBubble = (props: NowPlayingProps) => {
             {props.nowPlaying.isPlaying ?
                 <div>
                     <p className="white-font bold padding-h-10">
-                        {/* <span> Listening to{"  "}</span> */}
                         {props.nowPlaying.title?.length! > 40 ?
                             props.nowPlaying.title?.substring(0, 20) :
                             props.nowPlaying.title}

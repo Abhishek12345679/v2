@@ -17,6 +17,9 @@ export interface NowPlayingProps {
 }
 
 export const Introduction = (props: NowPlayingProps) => {
+
+
+
     return (
         <section className="introduction" id="main-content">
             <div className="container-body">

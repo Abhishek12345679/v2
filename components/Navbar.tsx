@@ -68,7 +68,7 @@ const Navbar = (props: NavbarProps) => {
                                         </a>
                                     </Link>
                                 </li>
-                                <li >
+                                {/* <li >
                                     <Link href="/blog">
                                         <a
                                             className={router.pathname == "/blog" ? "active" : ""}
@@ -77,7 +77,7 @@ const Navbar = (props: NavbarProps) => {
                                             Blog
                                         </a>
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link href="/resume.pdf">
                                         <a title="Resume" target='_blank'>

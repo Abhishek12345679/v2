@@ -364,8 +364,6 @@ a {
 }
 
 .avatar {
-    /* top: 0; */
-    /* left: 0; */
     margin-left: 20px;
 }
 
@@ -375,8 +373,9 @@ a {
 
 .now-playing-bubble {
     display: flex;
-    width: 175px;
-    height: 60px;
+    flex-direction: row;
+    width: 200px;
+    height: 55px;
     justify-content: flex-start;
     align-items: center;
     border-radius: 25px;
@@ -668,14 +667,11 @@ a {
         height: 60px;
         background-color: #c78a18;
         align-items: center;
-        border-radius: 20px;
         margin: 0 20px;
-        /* margin-left: 100px; */
         font-size: 0.7em;
         padding: 25px 20px;
         font-weight: 500;
         z-index: 10;
-        box-shadow: #ac7614;
         overflow: hidden;
     }
     .avatar-listening {
