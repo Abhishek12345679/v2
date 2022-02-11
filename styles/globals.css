@@ -300,6 +300,9 @@ a {
 
 .thankyou {
     margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .thankyou:hover {
@@ -586,6 +589,16 @@ a {
         top: 0px;
         right: 10px;
     }
+    .modal {
+        /* centering-the-div :trolley: */
+        position: absolute;
+        top: 40px;
+        left: 20px;
+        right: 20px;
+        bottom: 40px;
+        border-radius: 10px;
+        background-color: #fafafa;
+    }
 }
 
 
@@ -652,7 +665,7 @@ a {
         align-items: flex-start;
     }
     .thankyou {
-        margin: 20px;
+        margin: 0px 20px;
     }
     .project-grid {
         grid-template-columns: repeat(1, 1fr);

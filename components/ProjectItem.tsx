@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 
 interface ProjectItemProps {
+    keyProp: number;
     image: string;
     title: string;
     subtitle: string;
@@ -14,7 +15,10 @@ interface ProjectItemProps {
 
 const ProjectItem = (props: ProjectItemProps) => {
     return (
-        <article className="project-item">
+        <article
+            key={props.keyProp}
+            className="project-item"
+        >
             <div className="card">
                 <Image
                     className="pos-absolute"

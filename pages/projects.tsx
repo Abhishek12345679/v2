@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar"
 import Projects from "../components/Projects"
 import { currentLocation, makeDayTimeString } from "../helper/helperFunctions"
 
+
 const projects: NextPage = () => {
 
     return (

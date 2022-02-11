@@ -6,7 +6,6 @@ const NowPlayingBubble = (props: NowPlayingProps) => {
 
     const { data, loading, error } = usePalette(props.nowPlaying ? props.nowPlaying.albumImageUrl! : "")
 
-    const nowPlayingBubble = document.getElementsByClassName('now-playing-bubble')
 
     return (
         <a
