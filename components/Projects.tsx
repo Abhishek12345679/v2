@@ -3,6 +3,7 @@ import ProjectItem from "./ProjectItem";
 import Modal from 'react-modal';
 import Link from "next/link";
 import { useRouter } from "next/router";
+import ProjectDetails from "./ProjectDetails";
 
 const ModalStyle = {
     content: {
@@ -14,7 +15,7 @@ const ModalStyle = {
 
         maxWidth: '1100px',
         height: '700px',
-        backgroundColor: '#FFF',
+        backgroundColor: '#4e4e4e',
         borderWidth: 0
     },
     overlay: {
@@ -62,12 +63,12 @@ const Projects = () => {
             </div>
             <Modal
                 style={ModalStyle}
-                // className="modal"
-                // overlayClassName="modalOverlay"
                 isOpen={!!router.query.project}
                 onRequestClose={() => router.push('/projects')}
             >
-                <div>This is a modal</div>
+                <ProjectDetails
+                    project={projects.filter((p) => p.title === router.query.project)[0]}
+                />
             </Modal>
         </section>
     );
