@@ -1,5 +1,4 @@
 import { useRouter } from 'next/router'
-import React from 'react'
 import Navbar from '../../components/Navbar';
 import ProjectDetails from '../../components/ProjectDetails';
 import { projects } from '../../data/projects';
@@ -14,11 +13,19 @@ const projectPage = () => {
     return (
         <div>
             <Navbar dayTimeString={makeDayTimeString()} currentLocation={currentLocation} />
-            {projectData &&
-                <ProjectDetails
-                    project={projectData}
-                />
-            }
+            <section className="introduction">
+                <div
+                    className="container-body"
+                    id="main-content"
+                >
+                    {projectData &&
+                        <ProjectDetails
+                            project={projectData}
+                            style={{ color: "#fff" }}
+                        />
+                    }
+                </div>
+            </section>
         </div>
     )
 }

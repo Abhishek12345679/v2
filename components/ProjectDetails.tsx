@@ -1,6 +1,4 @@
 import Image from 'next/image'
-import React from 'react'
-
 export interface ProjectDetailsProps {
     project: {
         image: string;
@@ -10,12 +8,22 @@ export interface ProjectDetailsProps {
         techstack: Array<String>
         repo_url: string;
         media: string;
+    },
+    style: {
+        color: string,
     }
 }
 
-const ProjectDetails = ({ project }: ProjectDetailsProps) => {
+const ProjectDetails = ({ project, style }: ProjectDetailsProps) => {
     return (
-        <div style={{ padding: 20 }}>
+        <div
+            style={
+                {
+                    padding: 20,
+                    color: style.color ?? "#000",
+                }
+            }
+        >
             {project &&
                 <>
                     <Image
@@ -23,19 +31,20 @@ const ProjectDetails = ({ project }: ProjectDetailsProps) => {
                         height={150}
                         width={150}
                     />
-                    <h1 style={{ color: 'white' }}>
+                    <h1>
                         {project.title[0].toUpperCase() + project.title.substring(1)}
                     </h1>
-                    <h2 className='white-font'>
+                    <h2>
                         {project.subtitle}
                     </h2>
-                    <p className='white-font'>
+                    <p>
                         {project.description}
                     </p>
-                    {project.techstack.map((ts) => <li className='white-font'>{ts}</li>)}
+                    <h2>Tech</h2>
+                    {project.techstack.map((ts) => <li>{ts}</li>)}
                 </>
             }
-        </div>
+        </div >
     )
 }
 

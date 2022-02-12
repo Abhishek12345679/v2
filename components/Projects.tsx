@@ -15,8 +15,9 @@ const ModalStyle = {
 
         maxWidth: '1100px',
         height: '600px',
-        backgroundColor: '#4e4e4e',
+        backgroundColor: '#FFF',
         borderWidth: 0,
+        borderRadius: 5
     },
     overlay: {
         backgroundColor: '#00000075'
@@ -68,6 +69,9 @@ const Projects = () => {
             >
                 <ProjectDetails
                     project={projects.filter((p) => p.title === router.query.project)[0]}
+                    style={{
+                        color: "#000",
+                    }}
                 />
             </Modal>
         </section>
