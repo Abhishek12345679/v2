@@ -66,6 +66,7 @@ const Projects = () => {
                 style={ModalStyle}
                 isOpen={!!router.query.project}
                 onRequestClose={() => router.push('/projects')}
+                closeTimeoutMS={250}
             >
                 <ProjectDetails
                     project={projects.filter((p) => p.title === router.query.project)[0]}
