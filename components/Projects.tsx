@@ -42,22 +42,16 @@ const Projects = () => {
                 <div className="project-grid">
                     {
                         projects.map((proj, i) => (
-                            <Link
-                                href={`projects/?project=${proj.title.toLowerCase()}`}
-                                as={`/projects/${proj.title.toLowerCase()}`}
-                            >
-                                <a>
-                                    <ProjectItem
-                                        keyProp={i}
-                                        image={proj.image}
-                                        title={proj.title}
-                                        subtitle={proj.subtitle}
-                                        description={proj.description}
-                                        techstack={proj.techstack}
-                                        repo_url={proj.repo_url}
-                                    />
-                                </a>
-                            </Link>
+
+                            <ProjectItem
+                                keyProp={i}
+                                image={proj.image}
+                                title={proj.title}
+                                subtitle={proj.subtitle}
+                                description={proj.description}
+                                techstack={proj.techstack}
+                                repo_url={proj.repo_url}
+                            />
                         ))
                     }
                 </div>
