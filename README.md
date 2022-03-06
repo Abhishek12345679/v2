@@ -1,4 +1,5 @@
-<a href="http://abhii.dev/" target="_blank">abhii.dev</a>
+<!--<a href="http://abhii.dev/" target="_blank">abhii.dev</a> -->
+[abhii.dev](https://abhii.dev/)
 
 
 ![landing_page](assets/landing_page.png)
