@@ -1,13 +1,12 @@
 import { projects } from "../data/projects";
 import ProjectItem from "./ProjectItem";
 import Modal from 'react-modal';
-import Link from "next/link";
 import { useRouter } from "next/router";
 import ProjectDetails from "./ProjectDetails";
 
 const ModalStyle = {
     content: {
-        // centering-the-div :trolley:
+        // centering-the-div
         top: '55%',
         left: '50%',
         marginRight: '-50%',

@@ -11,6 +11,7 @@ module.exports = {
       "twitter.com",
       "avatars.githubusercontent.com",
       "www.zhenghao.io",
+      "github.com",
     ],
   },
   nextConfig,

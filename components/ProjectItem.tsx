@@ -29,8 +29,8 @@ const ProjectItem = (props: ProjectItemProps) => {
                         <Image
                             className="pos-absolute"
                             src={props.image}
-                            width={200}
-                            height={200}
+                            width={250}
+                            height={250}
                             priority
                         />
                         <div className="gradient"></div>

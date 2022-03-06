@@ -1,10 +1,10 @@
 export const projects = [
   {
-    image: "/images/projects/aushadhalay2.png",
+    image: "/images/projects/aushadhalay-new.png",
     title: "aushadhalay",
     subtitle: "Scan and Buy Meds.",
     description:
-      "An app that makes it easy to order medicine by letting you scan your medicine packaging and then returning the data and also letting you order the medicine.",
+      "Want your restock on your medicines? Just whip out your phone and snap a photo of the packaging and boom it shows you all the medicines matching the data from the packaging.\n\nWhy Aushadhalay instead of other apps\n1. Unlimited range of Medicinal Products 💊\n2. Intuitive 🐝\n3. One Scan away from your meds 🕵🏼‍♀️ 🕵🏼‍♂️",
     techstack: [
       "React Native",
       "Firebase",

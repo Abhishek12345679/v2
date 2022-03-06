@@ -37,9 +37,9 @@ const ProjectDetails = ({ project, style }: ProjectDetailsProps) => {
                     <h2>
                         {project.subtitle}
                     </h2>
-                    <p>
+                    <pre>
                         {project.description}
-                    </p>
+                    </pre>
                     <h2>Tech</h2>
                     {project.techstack.map((ts) => <li>{ts}</li>)}
                 </>
