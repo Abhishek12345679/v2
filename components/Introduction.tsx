@@ -76,7 +76,7 @@ export const Introduction = (props: NowPlayingProps) => {
                                     />
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a
                                     className="social-icon"
                                     title='You will be disappointed!'
@@ -90,14 +90,14 @@ export const Introduction = (props: NowPlayingProps) => {
                                         size="lg"
                                     />
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a
                                     className="social-icon"
                                     title='Sike No Photos!'
                                     target='_blank'
                                     referrerPolicy='origin'
-                                    href="https://instagram.com/abhii.dev"
+                                    href="https://instagram.com/alooofries"
                                 >
                                     <FontAwesomeIcon
                                         className="mobile-social-icon"
