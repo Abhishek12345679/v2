@@ -52,8 +52,8 @@ export const Introduction = (props: NowPlayingProps) => {
                     <h3 className='desc regular'>
                         I Am A Self Taught Developer Solving Real World Problems One By One. (currently overwhelmed because i have a life now)
                         <br className='toggle-break' />
-                        <br />
-                        <br />
+                        <br className="desktop-break" />
+                        <br className="desktop-break" />
                         <span>
                             I Am Building This Website As A Way To Showcase The Projects I Have Worked On As Well As Learn Browser Oriented Web Development.
                         </span>

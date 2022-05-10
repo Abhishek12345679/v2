@@ -581,6 +581,9 @@ a {
 /* tablets and under */
 
 @media (max-width: 768px) {
+    .desktop-break {
+        display: none;
+    }
     .topbar ul>*:first-child {
         display: none;
     }
