@@ -1,9 +1,8 @@
-import { faGithub, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
 import NowPlayingBubble from "./NowPlayingBubble";
-
 
 export interface NowPlayingProps {
     nowPlaying: {
@@ -17,8 +16,6 @@ export interface NowPlayingProps {
 }
 
 export const Introduction = (props: NowPlayingProps) => {
-
-
 
     return (
         <section className="introduction" id="main-content">
@@ -53,10 +50,12 @@ export const Introduction = (props: NowPlayingProps) => {
                         }
                     </div>
                     <h3 className='desc regular'>
-                        I am a self-taught <span className='react-native'>React Native</span> Developer solving real life problems one by one.
+                        I Am A Self Taught Developer Solving Real World Problems One By One. (currently overwhelmed because i have a life now)
                         <br className='toggle-break' />
+                        <br />
+                        <br />
                         <span>
-                            {" "}I am creating this website as a way to showcase the projects i have worked on and learn Browser Oriented Web Development.
+                            I Am Building This Website As A Way To Showcase The Projects I Have Worked On As Well As Learn Browser Oriented Web Development.
                         </span>
                     </h3>
                     <section>
@@ -76,21 +75,6 @@ export const Introduction = (props: NowPlayingProps) => {
                                     />
                                 </a>
                             </li>
-                            {/* <li>
-                                <a
-                                    className="social-icon"
-                                    title='You will be disappointed!'
-                                    target='_blank'
-                                    referrerPolicy='origin'
-                                    href="https://twitter.com/newbdev6969"
-                                >
-                                    <FontAwesomeIcon
-                                        className="mobile-social-icon"
-                                        icon={faTwitter}
-                                        size="lg"
-                                    />
-                                </a>
-                            </li> */}
                             <li>
                                 <a
                                     className="social-icon"
