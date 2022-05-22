@@ -45,7 +45,7 @@ const Projects = () => {
                             <ProjectItem
                                 keyProp={i}
                                 image={proj.image}
-                                title={proj.title}
+                                title={proj.title[0].toUpperCase() + proj.title.substring(1)}
                                 subtitle={proj.subtitle}
                                 description={proj.description}
                                 techstack={proj.techstack}

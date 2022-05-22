@@ -20,6 +20,8 @@ export interface ProjectDetailsProps {
 
 const ProjectDetails = ({ project, style }: ProjectDetailsProps) => {
 
+    console.log(project)
+
     const links = [
         {
             icon: faGithub,
