@@ -18,8 +18,6 @@ export interface ProjectDetailsProps {
     }
 };
 
-
-
 const ProjectDetails = ({ project, style }: ProjectDetailsProps) => {
 
     const links = [
