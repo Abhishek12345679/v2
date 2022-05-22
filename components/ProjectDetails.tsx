@@ -29,7 +29,7 @@ const ProjectDetails = ({ project, style }: ProjectDetailsProps) => {
         },
         {
             icon: faGooglePlay,
-            link: "https://play.google.com/store/apps/details?id=com.aush.aush.prod"
+            link: project.title === "Aushadhalay" ? "https://play.google.com/store/apps/details?id=com.aush.aush.prod" : ""
         },
         {
             icon: faApple,
