@@ -14,7 +14,7 @@ const ModalStyle = {
 
         maxWidth: '1100px',
         height: '600px',
-        backgroundColor: '#FFF',
+        backgroundColor: '#414141',
         borderWidth: 0,
         borderRadius: 5
     },
@@ -64,7 +64,7 @@ const Projects = () => {
                 <ProjectDetails
                     project={projects.filter((p) => p.title === router.query.project)[0]}
                     style={{
-                        color: "#000",
+                        color: "#F0F0F0",
                     }}
                 />
             </Modal>
