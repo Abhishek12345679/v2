@@ -6,8 +6,9 @@ import ProjectDetails from "./ProjectDetails";
 
 const ModalStyle = {
     content: {
-        // centering-the-div
+        // centev
         top: '55%',
+        bottom: '55%',
         left: '50%',
         marginRight: '-50%',
         transform: 'translate(-50%, -50%)',
