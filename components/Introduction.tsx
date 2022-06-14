@@ -85,7 +85,7 @@ export const Introduction = (props: NowPlayingProps) => {
                   title="Sike No Photos!"
                   target="_blank"
                   referrerPolicy="origin"
-                  href="https://instagram.com/alooofries"
+                  href="https://instagram.com/shhakeyy"
                 >
                   <FontAwesomeIcon
                     className="mobile-social-icon"

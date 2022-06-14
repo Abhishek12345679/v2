@@ -6,7 +6,7 @@ import ProjectDetails from "./ProjectDetails";
 
 const ModalStyle = {
   content: {
-    // centev
+    // center
     top: "55%",
     bottom: "55%",
     left: "50%",
