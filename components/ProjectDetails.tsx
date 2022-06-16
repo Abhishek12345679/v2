@@ -97,13 +97,23 @@ const ProjectDetails = ({ project, style }: ProjectDetailsProps) => {
               <span>{project.subtitle}</span>
               <div
                 style={{
-                  display: "flex",
+                  // display: "flex",
                   alignItems: "center",
                   // padding: 1,
                   marginRight: 10,
                   marginTop: 30,
                 }}
               >
+                <span
+                  style={{
+                    display: "flex",
+                    fontSize: 20,
+                    fontWeight: "bold",
+                    marginBottom: 10,
+                  }}
+                >
+                  Links
+                </span>
                 {links &&
                   links
                     .filter((link) => link.link.length > 0)
@@ -114,16 +124,18 @@ const ProjectDetails = ({ project, style }: ProjectDetailsProps) => {
                             display: "flex",
                             width: 35,
                             height: 35,
-                            borderRadius: 17.5,
+                            borderRadius: 35 / 2.0,
                             background: "#fff",
                             justifyContent: "center",
                             alignItems: "center",
-                            color: "#000",
+                            color: "#FFF",
                             marginRight: 10,
                             padding: 10,
+                            backgroundColor: "#000",
+                            // boxShadow: "1px 1px 25px #ccc",
                           }}
                         >
-                          <FontAwesomeIcon icon={link.icon} size="lg" />
+                          <FontAwesomeIcon icon={link.icon} size="sm" />
                         </div>
                       </a>
                     ))}
@@ -194,7 +206,7 @@ const ProjectDetails = ({ project, style }: ProjectDetailsProps) => {
                     justifyContent: "space-around",
                     alignItems: "center",
                     color: "#000",
-                    marginRight: 10,
+                    marginRight: window.innerWidth > 768 ? 10 : 20,
                     padding: 10,
                   }}
                 >

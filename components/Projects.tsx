@@ -14,7 +14,7 @@ const ModalStyle = {
     transform: "translate(-50%, -50%)",
 
     maxWidth: "1100px",
-    height: "800px",
+    height: "650px",
     backgroundColor: "#414141",
     borderWidth: 0,
     borderRadius: 5,
