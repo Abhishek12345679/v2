@@ -24,16 +24,6 @@ const Home: NextPage = () => {
           name="description"
           content="Homepage of my personal website which houses a short description and my experience."
         />
-        {/* Twitter Summary Card */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@newbdev6969" />
-        <meta name="twitter:creator" content="@newbdev6969" />
-        <meta name="twitter:title" content="Abhishek Sah" />
-        <meta
-          name="twitter:description"
-          content="Homepage of my personal website which houses a short description and my experience."
-        />
-        {/* <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1491429771732914176/g2LGEAeV_400x400.jpg" /> */}
       </Head>
       <Navbar
         dayTimeString={makeDayTimeString()}

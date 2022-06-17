@@ -36,6 +36,4 @@ export default async (_: NextApiRequest, res: NextApiResponse) => {
     songUrl,
     title,
   });
-
-  //   return res.status(200).json({ resData: resData });
 };

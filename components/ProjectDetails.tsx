@@ -51,8 +51,6 @@ const ProjectDetails = ({ project, style }: ProjectDetailsProps) => {
   return (
     <div
       style={{
-        // width: "100%",
-        // padding: 20,
         color: style.color,
         display: "flex",
         flexDirection: "column",
@@ -64,8 +62,6 @@ const ProjectDetails = ({ project, style }: ProjectDetailsProps) => {
             style={{
               display: "flex",
               flexDirection: window.innerWidth > 768 ? "row" : "column",
-
-              //   alignItems: "center",
               marginBottom: 20,
             }}
           >
@@ -97,9 +93,7 @@ const ProjectDetails = ({ project, style }: ProjectDetailsProps) => {
               <span>{project.subtitle}</span>
               <div
                 style={{
-                  // display: "flex",
                   alignItems: "center",
-                  // padding: 1,
                   marginRight: 10,
                   marginTop: 30,
                 }}
@@ -132,7 +126,6 @@ const ProjectDetails = ({ project, style }: ProjectDetailsProps) => {
                             marginRight: 10,
                             padding: 10,
                             backgroundColor: "#000",
-                            // boxShadow: "1px 1px 25px #ccc",
                           }}
                         >
                           <FontAwesomeIcon icon={link.icon} size="sm" />
@@ -174,9 +167,7 @@ const ProjectDetails = ({ project, style }: ProjectDetailsProps) => {
               display: "flex",
               flexDirection: "column",
               padding: 10,
-              // background: "#2E2E2E",
               marginTop: 10,
-              // borderRadius: 5
             }}
           >
             <span

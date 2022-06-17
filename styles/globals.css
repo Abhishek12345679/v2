@@ -417,7 +417,6 @@ a {
     padding: 5px 10px;
     background-color: rgb(26, 116, 219);
     margin: 0 10px;
-    /* color: #0f0d0c; */
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -446,18 +445,15 @@ a {
 
 .ReactModal__Overlay {
     opacity: 0;
-    /* transform: translateY(-100px); */
     transition: all 250ms ease-in-out;
 }
 
 .ReactModal__Overlay--after-open {
     opacity: 1;
-    /* transform: translateY(0px); */
 }
 
 .ReactModal__Overlay--before-close {
     opacity: 0;
-    /* transform: translateY(-100px); */
 }
 
 
@@ -474,16 +470,12 @@ a {
 .container {
     max-width: 900px;
     margin: 0 auto;
-    /* ^ FIXME: this is causing the sliding right*/
-    /* overflow: auto; */
     padding: 0 25px;
 }
 
 .container-body {
     max-width: 900px;
     margin: 1em auto;
-    /* ^ FIXME: this is causing the sliding right*/
-    /* overflow: auto; */
     padding: 0 25px;
 }
 
@@ -563,11 +555,7 @@ a {
 .space-around {
     width: 100%;
     justify-content: space-between;
-    /* background-color: red; */
 }
-
-
-/* add img to Image */
 
 .img {
     width: 100%;
@@ -610,7 +598,6 @@ a {
         height: 25px;
     }
     .tones {
-        /* background-color: red; */
         justify-content: center;
         width: 200px;
         height: 115px;
@@ -618,7 +605,6 @@ a {
         right: 10px;
     }
     .modal {
-        /* centering-the-div :trolley: */
         position: absolute;
         top: 40px;
         left: 20px;
@@ -633,9 +619,6 @@ a {
 /* mobile phones and under */
 
 @media (max-width: 600px) {
-    .logo {
-        /* font-size: 0.9em; */
-    }
     .desc {
         width: 100%;
     }
@@ -644,7 +627,6 @@ a {
         margin-top: 20px;
     }
     .exp-desc-item {
-        /* font-size: 1em; */
         margin: 10px 0;
         position: relative;
         padding-left: 20px;
@@ -725,7 +707,6 @@ a {
         justify-content: space-around;
         padding: 0px 0px;
         margin: 0px 0px;
-        /* background-color: red; */
     }
     .social-icon {
         display: flex;
