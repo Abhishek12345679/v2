@@ -65,7 +65,7 @@ const Navbar = (props: NavbarProps) => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/resume.pdf">
+                  <Link href="/resume_traditional_personal.pdf">
                     <a title="Resume" target="_blank">
                       Resume
                     </a>

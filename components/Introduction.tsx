@@ -1,4 +1,8 @@
-import { faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faInstagram,
+  faGitlab,
+} from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
@@ -26,7 +30,7 @@ export const Introduction = (props: NowPlayingProps) => {
               <h1 className="name">Abhishek Sah</h1>
               <Link href="/projects">
                 <a className="subtitle bolder">
-                  <h2>I love solving problems and abandoning them lol 😫</h2>
+                  <h2>Check out the projects i have worked on 💀</h2>
                 </a>
               </Link>
             </div>
@@ -53,7 +57,6 @@ export const Introduction = (props: NowPlayingProps) => {
           </div>
           <h3 className="desc regular">
             I Am A Self Taught Developer Solving Real World Problems One By One.
-            (currently overwhelmed because i have a life now)
             <br className="toggle-break" />
             <br className="desktop-break" />
             <br className="desktop-break" />
@@ -75,6 +78,21 @@ export const Introduction = (props: NowPlayingProps) => {
                   <FontAwesomeIcon
                     className="mobile-social-icon"
                     icon={faGithub}
+                    size="lg"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  className="social-icon"
+                  title="Follow me on Gitlab (fuck msft)!"
+                  target="_blank"
+                  referrerPolicy="origin"
+                  href="https://gitlab.com/Abhishek12345679"
+                >
+                  <FontAwesomeIcon
+                    className="mobile-social-icon"
+                    icon={faGitlab}
                     size="lg"
                   />
                 </a>
