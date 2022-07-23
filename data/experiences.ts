@@ -14,6 +14,7 @@ export const experiences = [
       "Redux Toolkit",
       "@mui (Material Design UI Library)",
     ],
+    color: "#FF0000",
   },
   {
     position: "React Native Intern",
@@ -30,6 +31,7 @@ export const experiences = [
       "Redux Toolkit",
       "@mui (Material Design UI Library)",
     ],
+    color: "#FFD700",
   },
   {
     position: "React Native Freelancer",
@@ -41,5 +43,6 @@ export const experiences = [
       "Consulted the business on key parts of the technical aspects of the product.",
     ],
     techstack: ["React Native", "Expo", "Firebase", "Typescript", "NodeJS"],
+    color: "#FF0000",
   },
 ];

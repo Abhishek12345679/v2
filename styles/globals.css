@@ -256,6 +256,7 @@ a {
     justify-content: flex-start;
     align-items: flex-start;
     border-radius: 10px;
+    /* width: 70%; */
 }
 
 .list-item p {
