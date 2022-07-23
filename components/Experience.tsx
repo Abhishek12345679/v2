@@ -56,7 +56,7 @@ export const Experience = () => {
                 height: 300px;
                 /* border: 1px solid red; */
                 width: 12%;
-                margin-top: 6em;
+                margin-top: 8em;
                 top: ${i * 300}px;
                 display: flex;
                 justify-content: space-between;
