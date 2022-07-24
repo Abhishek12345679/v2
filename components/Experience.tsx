@@ -1,4 +1,5 @@
 /** @jsxImportSource @emotion/react */
+
 import { css } from "@emotion/react";
 import { experiences } from "../data/experiences";
 import { ExperienceListItem } from "./ExperienceListItem";
@@ -49,6 +50,7 @@ export const Experience = () => {
               `}
             />
           </div>
+
           {experiences.map((exp, i: number) => (
             <div
               css={css`
@@ -65,7 +67,6 @@ export const Experience = () => {
                 @media (max-width: 1000px) {
                   display: none;
                 }
-                /* border: 1px solid red; */
               `}
             >
               <span
@@ -76,20 +77,10 @@ export const Experience = () => {
                   margin-right: 0px;
                   left: 0;
                   width: 60%;
-                  /* border: 1px solid red; */
                 `}
               >
                 {exp.duration}
               </span>
-              <div
-                css={css`
-                  width: 20px;
-                  height: 20px;
-                  border-radius: 10px;
-                  background-color: ${exp.color};
-                  /* border: 1px solid red; */
-                `}
-              />
             </div>
           ))}
           <div>
