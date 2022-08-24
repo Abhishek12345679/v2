@@ -11,8 +11,9 @@ export const experiences = [
     techstack: [
       "React",
       "Typescript",
-      "Redux Toolkit",
+      "Redux Toolkit / RTK Query",
       "@mui (Material Design UI Library)",
+      "Tailwind CSS",
     ],
     color: "#FF0000",
   },
