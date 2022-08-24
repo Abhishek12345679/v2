@@ -1,6 +1,6 @@
 import { Temporal } from "@js-temporal/polyfill";
 
-export const currentLocation = "Ethelbari";
+export const currentLocation = "Kolkata";
 
 export const makeDayTimeString = () => {
   const DaysOfTheWeek = ["Mon", "Tue", "Wed", "Thurs", "Fri", "Sat", "Sun"];

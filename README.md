@@ -27,6 +27,7 @@
 - [x] Thank you page for pages i drew inspiration from
 - [x] Buy a domain
 - [x] Publish to said domain using netlify.
+- [ ] Add Automatic Location Updating Mechanism.
 
 ## Getting Started
 
