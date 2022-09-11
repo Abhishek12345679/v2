@@ -2,9 +2,6 @@
 
 const nextConfig = {
   reactStrictMode: true,
-};
-
-module.exports = {
   images: {
     domains: [
       "i.scdn.co",
@@ -14,5 +11,6 @@ module.exports = {
       "github.com",
     ],
   },
-  nextConfig,
 };
+
+module.exports = nextConfig;

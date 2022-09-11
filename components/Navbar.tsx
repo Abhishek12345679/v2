@@ -3,17 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-import { currentLocation } from "../helper/helperFunctions";
+import { currentLocation, makeDayTimeString } from "../helper/helperFunctions";
 
-interface NavbarProps {
-  dayTimeString: string;
-  currentLocation: string;
-}
-
-const Navbar = (props: NavbarProps) => {
+const Navbar = () => {
   const router = useRouter();
 
   useEffect(() => {
+    // for turning the desktop horizontal nav into mobile style web nav
     const toggleButton = document.getElementsByClassName("toggle-button")[0];
     const navbarLinks = document.getElementsByClassName("navbar-links")[0];
 
@@ -32,7 +28,7 @@ const Navbar = (props: NavbarProps) => {
           <h3 className="logo regular" title="inspired by Zhenghao">
             <Link href="/">
               <a>
-                {props.dayTimeString}, {currentLocation}
+                {makeDayTimeString()}, {currentLocation}
               </a>
             </Link>
           </h3>

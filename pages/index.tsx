@@ -25,10 +25,7 @@ const Home: NextPage = () => {
           content="Homepage of my personal website which houses a short description and my experience."
         />
       </Head>
-      <Navbar
-        dayTimeString={makeDayTimeString()}
-        currentLocation={currentLocation}
-      />
+      <Navbar />
       <Introduction nowPlaying={data} />
       <Experience />
       <ThankYou />

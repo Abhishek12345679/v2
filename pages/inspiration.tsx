@@ -7,10 +7,7 @@ import { makeDayTimeString, currentLocation } from "../helper/helperFunctions";
 const inspiration = () => {
   return (
     <div>
-      <Navbar
-        dayTimeString={makeDayTimeString()}
-        currentLocation={currentLocation}
-      />
+      <Navbar />
       <ThanksSegmentedControl />
       <section className="introduction">
         <div className="container-body" id="main-content">
