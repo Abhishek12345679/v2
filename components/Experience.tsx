@@ -6,13 +6,11 @@ import { ExperienceListItem } from "./ExperienceListItem";
 
 export const Experience = () => {
   return (
-    <section className="introduction margin-vert-20">
-      <div className="container-body">
+    <section className="relative my-5 bg-primary-main py-4 text-gray-200">
+      <div className="my-4 mx-auto max-w-[900px] py-0 px-6">
         <h1
-          className="white-font"
+          className="ml-[100px] text-white "
           css={css`
-            /* text-align: center; */
-            margin-left: 100px;
             @media (max-width: 1000px) {
               margin-left: 10px;
             }
@@ -20,54 +18,27 @@ export const Experience = () => {
         >
           Experience
         </h1>
-        <div
-          className="margin-left-5"
-          css={css`
-            display: flex;
-            width: 100%;
-            flex-direction: row;
-          `}
-        >
+        <div className="margin-left-5 flex w-full flex-row">
           <div
+            className="my-7 mr-7 ml-0 flex w-[30%] items-center justify-end"
             css={css`
-              width: 30%;
-              display: flex;
-              justify-content: flex-end;
-              align-items: center;
-              margin: 30px 30px 30px 0;
               @media (max-width: 1000px) {
                 display: none;
               }
             `}
           >
-            <div
-              css={css`
-                height: 100%;
-                width: 1px;
-                background-color: white;
-                border-radius: 20px;
-                opacity: 0.2;
-              `}
-            />
+            <div className="h-full w-[1px] rounded-[20px] bg-white opacity-20" />
           </div>
 
           {experiences.map((exp, i: number) => (
             <div
               css={css`
-                position: absolute;
-                height: 300px;
-                /* border: 1px solid red; */
-                width: 12%;
-                margin-top: 8em;
                 top: ${i * 300}px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                flex-direction: row;
                 @media (max-width: 1000px) {
                   display: none;
                 }
               `}
+              className="absolute mt-32 flex h-[300px] w-[12%] flex-row justify-between"
             >
               <span
                 css={css`

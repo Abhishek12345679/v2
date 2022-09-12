@@ -29,9 +29,9 @@ const Projects = () => {
   const router = useRouter();
 
   return (
-    <section className="introduction">
-      <div className="container-body" id="main-content">
-        <h1 className="page-heading white-font">Projects</h1>
+    <section className="py-4 bg-primary-main text-gray-200 relative my-5">
+      <div className="max-w-[900px] my-4 mx-auto py-0 px-6" id="main-content">
+        <h1 className="page-heading text-white">Projects</h1>
         <div className="project-grid">
           {projects.map((proj, i) => (
             <ProjectItem

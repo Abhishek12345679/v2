@@ -9,8 +9,8 @@ const inspiration = () => {
     <div>
       <Navbar />
       <ThanksSegmentedControl />
-      <section className="introduction">
-        <div className="container-body" id="main-content">
+      <section className="py-4 bg-primary-main text-gray-200 relative my-5">
+        <div className="max-w-[900px] my-4 mx-auto py-0 px-6" id="main-content">
           <h3 className="bold">
             Thank you to these developers/designers for making such cool
             websites

@@ -25,7 +25,7 @@ const Navbar = () => {
           skip navigation
         </a>
         <div className="container space-around">
-          <h3 className="logo regular" title="inspired by Zhenghao">
+          <h3 className="logo font-medium" title="inspired by Zhenghao">
             <Link href="/">
               <a>
                 {makeDayTimeString()}, {currentLocation}

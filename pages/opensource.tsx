@@ -5,14 +5,11 @@ import { makeDayTimeString, currentLocation } from "../helper/helperFunctions";
 const opensource = () => {
   return (
     <div>
-      <Navbar
-        dayTimeString={makeDayTimeString()}
-        currentLocation={currentLocation}
-      />
+      <Navbar />
       <ThanksSegmentedControl />
-      <section className="introduction">
+      <section className="py-4 bg-primary-main text-gray-200 relative my-5">
         <div
-          className="container-body"
+          className="max-w-[900px] my-4 mx-auto py-0 px-6"
           id="main-content"
           style={{ textAlign: "center" }}
         >

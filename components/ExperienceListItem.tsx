@@ -7,7 +7,7 @@ export const ExperienceListItem = (props: any) => {
     <section className="list-item" key={props.keyProp}>
       <div className="row1">
         <div className="col1">
-          <p className="white-font">{props.position}</p>
+          <p className="text-white">{props.position}</p>
           <p className="subtitle">{props.organisation}</p>
         </div>
         <p

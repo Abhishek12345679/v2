@@ -21,8 +21,11 @@ export interface NowPlayingProps {
 
 export const Introduction = (props: NowPlayingProps) => {
   return (
-    <section className="introduction" id="main-content">
-      <div className="container-body">
+    <section
+      className="py-4 bg-primary-main text-gray-200 relative my-5"
+      id="main-content"
+    >
+      <div className="max-w-[900px] my-4 mx-auto py-0 px-6">
         <div className={`intro-text`}>
           <div className="flex flex-start">
             <div className="title-subtitle-grp">
@@ -55,7 +58,7 @@ export const Introduction = (props: NowPlayingProps) => {
               </div>
             )}
           </div>
-          <h3 className="desc regular">
+          <h3 className="w-[700px] mt-1 font-medium">
             I Am A Self Taught Developer Solving Real World Problems One By One.
             <br className="toggle-break" />
             <br className="desktop-break" />

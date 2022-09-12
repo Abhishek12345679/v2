@@ -26,7 +26,7 @@ const NowPlayingBubble = (props: NowPlayingProps) => {
         )}
         {props.nowPlaying.isPlaying ? (
           <div>
-            <p className="white-font bold padding-h-10">
+            <p className="text-white bold padding-h-10">
               {props.nowPlaying.title?.length! > 40
                 ? props.nowPlaying.title?.substring(0, 20)
                 : props.nowPlaying.title}
@@ -40,7 +40,7 @@ const NowPlayingBubble = (props: NowPlayingProps) => {
             </p>
           </div>
         ) : (
-          <p className="white-font font-size-15 padding-h-10">Not Playing 😦</p>
+          <p className="text-white font-size-15 padding-h-10">Not Playing 😦</p>
         )}
       </div>
     </a>
