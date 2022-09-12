@@ -475,6 +475,12 @@ a {
   padding: 0 25px;
 }
 
+.container-body {
+  max-width: 900px;
+  margin: 1em auto;
+  padding: 0 25px;
+}
+
 .flex {
   display: flex;
   justify-content: center;

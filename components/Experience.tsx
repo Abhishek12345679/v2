@@ -40,16 +40,7 @@ export const Experience = () => {
               `}
               className="absolute mt-32 flex h-[300px] w-[12%] flex-row justify-between"
             >
-              <span
-                css={css`
-                  font-weight: bold;
-                  text-align: center;
-                  font-size: 14px;
-                  margin-right: 0px;
-                  left: 0;
-                  width: 60%;
-                `}
-              >
+              <span className="left-0 mr-0 w-[60%] text-center text-sm font-bold">
                 {exp.duration}
               </span>
             </div>

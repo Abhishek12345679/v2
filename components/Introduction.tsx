@@ -22,27 +22,29 @@ export interface NowPlayingProps {
 export const Introduction = (props: NowPlayingProps) => {
   return (
     <section
-      className="py-4 bg-primary-main text-gray-200 relative my-5"
+      className="relative my-5 bg-primary-main py-4 text-gray-200"
       id="main-content"
     >
-      <div className="max-w-[900px] my-4 mx-auto py-0 px-6">
-        <div className={`intro-text`}>
-          <div className="flex flex-start">
+      <div className="my-4 mx-auto max-w-[900px] py-0 px-6">
+        <div>
+          <div className="flex-start flex">
             <div className="title-subtitle-grp">
               <h3 className="margin-bottom-0">Hi! My Name is </h3>
-              <h1 className="name">Abhishek Sah</h1>
+              <h1 className="text-6xl font-bold ">Abhishek Sah</h1>
               <Link href="/projects">
-                <a className="subtitle bolder">
-                  <h2>Check out the projects i have worked on 💀</h2>
+                <a className="mb-6 font-extrabold text-gray-300">
+                  <h2 className="text-4xl font-bold">
+                    Check out the projects i have worked on 💀
+                  </h2>
                 </a>
               </Link>
             </div>
             {props.nowPlaying && (
-              <div className="avatar-listening">
+              <div className="m-0 flex flex-row-reverse justify-around p-0">
                 {props.nowPlaying && props.nowPlaying.isPlaying && (
                   <NowPlayingBubble nowPlaying={props.nowPlaying} />
                 )}
-                <div className="avatar">
+                <div className="ml-5">
                   <Image
                     src={
                       props.nowPlaying.isPlaying
@@ -51,14 +53,14 @@ export const Introduction = (props: NowPlayingProps) => {
                     }
                     height={props.nowPlaying.isPlaying ? 125 : 300}
                     width={props.nowPlaying.isPlaying ? 125 : 300}
-                    className="rounded-shape margin-left-10 margin-top20"
+                    className="ml-[10px] mt-5 rounded-[9999px]"
                     priority
                   />
                 </div>
               </div>
             )}
           </div>
-          <h3 className="w-[700px] mt-1 font-medium">
+          <h3 className="mt-1 w-[700px] font-medium">
             I Am A Self Taught Developer Solving Real World Problems One By One.
             <br className="toggle-break" />
             <br className="desktop-break" />
@@ -69,10 +71,10 @@ export const Introduction = (props: NowPlayingProps) => {
             </span>
           </h3>
           <section>
-            <ul className="socials-row flex">
-              <li>
+            <ul className="mt-8 flex h-16 w-full gap-8 text-xl">
+              <li className="flex p-2">
                 <a
-                  className="social-icon"
+                  className="flex h-8 w-8 items-center justify-center rounded"
                   title="Follow me on Github!"
                   target="_blank"
                   referrerPolicy="origin"
@@ -87,13 +89,14 @@ export const Introduction = (props: NowPlayingProps) => {
               </li>
               <li>
                 <a
-                  className="social-icon"
+                  className="flex h-8 w-8 items-center justify-center rounded"
                   title="Follow me on Gitlab (fuck msft)!"
                   target="_blank"
                   referrerPolicy="origin"
                   href="https://gitlab.com/Abhishek12345679"
                 >
                   <FontAwesomeIcon
+                    // media query
                     className="mobile-social-icon"
                     icon={faGitlab}
                     size="lg"
@@ -102,7 +105,7 @@ export const Introduction = (props: NowPlayingProps) => {
               </li>
               <li>
                 <a
-                  className="social-icon"
+                  className="flex h-8 w-8 items-center justify-center rounded"
                   title="Sike No Photos!"
                   target="_blank"
                   referrerPolicy="origin"
