@@ -7,11 +7,7 @@ const NowPlayingBubble = (props: NowPlayingProps) => {
     props.nowPlaying ? props.nowPlaying.albumImageUrl! : ""
   );
   return (
-    <a
-      target="_blank"
-      className="flex items-center justify-center "
-      href={props.nowPlaying.songUrl}
-    >
+    <a target="_blank" className="flex" href={props.nowPlaying.songUrl}>
       <div
         style={{
           background: !loading && data ? data.darkMuted : "#121212",
@@ -19,7 +15,7 @@ const NowPlayingBubble = (props: NowPlayingProps) => {
         className="now-playing-bubble"
       >
         {props.nowPlaying.albumImageUrl && (
-          <div className="overflow-hidden rounded-sm">
+          <div className="rounded-rect">
             <Image
               src={props.nowPlaying.albumImageUrl}
               width={40}
@@ -30,7 +26,7 @@ const NowPlayingBubble = (props: NowPlayingProps) => {
         )}
         {props.nowPlaying.isPlaying ? (
           <div>
-            <p className="py-3 font-bold text-white">
+            <p className="white-font bold padding-h-10">
               {props.nowPlaying.title?.length! > 40
                 ? props.nowPlaying.title?.substring(0, 20)
                 : props.nowPlaying.title}
@@ -44,7 +40,7 @@ const NowPlayingBubble = (props: NowPlayingProps) => {
             </p>
           </div>
         ) : (
-          <p className="py-3 text-sm text-white">Not Playing 😦</p>
+          <p className="white-font font-size-15 padding-h-10">Not Playing 😦</p>
         )}
       </div>
     </a>
