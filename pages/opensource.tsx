@@ -5,10 +5,7 @@ import { makeDayTimeString, currentLocation } from "../helper/helperFunctions";
 const opensource = () => {
   return (
     <div>
-      <Navbar
-        dayTimeString={makeDayTimeString()}
-        currentLocation={currentLocation}
-      />
+      <Navbar />
       <ThanksSegmentedControl />
       <section className="introduction">
         <div
